@@ -1,0 +1,1702 @@
+2022/12/23 08:08:28 [emerg] 1#1: host not found in upstream "lphp" in /etc/nginx/conf.d/nginx.conf:26
+2022/12/23 08:10:22 [notice] 1#1: using the "epoll" event method
+2022/12/23 08:10:22 [notice] 1#1: nginx/1.23.1
+2022/12/23 08:10:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 08:10:22 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 08:10:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 08:10:22 [notice] 1#1: start worker processes
+2022/12/23 08:10:22 [notice] 1#1: start worker process 22
+2022/12/23 08:10:22 [notice] 1#1: start worker process 23
+2022/12/23 08:10:22 [notice] 1#1: start worker process 24
+2022/12/23 08:10:22 [notice] 1#1: start worker process 25
+2022/12/23 08:10:22 [notice] 1#1: start worker process 26
+2022/12/23 08:10:22 [notice] 1#1: start worker process 27
+2022/12/23 08:10:22 [notice] 1#1: start worker process 28
+2022/12/23 08:10:22 [notice] 1#1: start worker process 29
+2022/12/23 08:10:22 [notice] 1#1: start worker process 30
+2022/12/23 08:10:22 [notice] 1#1: start worker process 31
+2022/12/23 08:10:22 [notice] 1#1: start worker process 32
+2022/12/23 08:10:22 [notice] 1#1: start worker process 33
+2022/12/23 08:10:29 [error] 22#22: *1 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /search?query=x HTTP/1.1", host: "elastic.docker"
+2022/12/23 08:10:29 [error] 23#23: *2 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "elastic.docker", referrer: "http://elastic.docker/search?query=x"
+2022/12/23 08:10:30 [error] 25#25: *4 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /search?query=x HTTP/1.1", host: "elastic.docker"
+2022/12/23 08:10:30 [error] 24#24: *3 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "elastic.docker", referrer: "http://elastic.docker/search?query=x"
+2022/12/23 08:10:30 [error] 27#27: *6 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /search?query=x HTTP/1.1", host: "elastic.docker"
+2022/12/23 08:10:30 [error] 26#26: *5 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "elastic.docker", referrer: "http://elastic.docker/search?query=x"
+2022/12/23 08:11:49 [error] 28#28: *8 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "elastic.docker"
+2022/12/23 08:11:49 [error] 29#29: *7 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "elastic.docker", referrer: "http://elastic.docker/"
+2022/12/23 08:11:50 [error] 31#31: *10 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "elastic.docker"
+2022/12/23 08:11:50 [error] 30#30: *9 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "elastic.docker", referrer: "http://elastic.docker/"
+2022/12/23 08:11:51 [error] 32#32: *11 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "elastic.docker"
+2022/12/23 08:11:51 [error] 33#33: *12 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "elastic.docker", referrer: "http://elastic.docker/"
+2022/12/23 08:11:59 [error] 23#23: *14 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/12/23 08:11:59 [error] 22#22: *13 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/12/23 08:12:00 [error] 22#22: *16 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/12/23 08:12:00 [error] 23#23: *15 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/12/23 08:14:31 [error] 23#23: *17 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/12/23 08:14:31 [error] 23#23: *18 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/12/23 08:14:32 [error] 22#22: *20 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/12/23 08:14:32 [error] 22#22: *19 rewrite or internal redirection cycle while redirect to named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/12/23 08:14:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/23 08:14:40 [notice] 22#22: gracefully shutting down
+2022/12/23 08:14:40 [notice] 24#24: gracefully shutting down
+2022/12/23 08:14:40 [notice] 25#25: gracefully shutting down
+2022/12/23 08:14:40 [notice] 23#23: gracefully shutting down
+2022/12/23 08:14:40 [notice] 26#26: gracefully shutting down
+2022/12/23 08:14:40 [notice] 27#27: gracefully shutting down
+2022/12/23 08:14:40 [notice] 28#28: gracefully shutting down
+2022/12/23 08:14:40 [notice] 22#22: exiting
+2022/12/23 08:14:40 [notice] 29#29: gracefully shutting down
+2022/12/23 08:14:40 [notice] 24#24: exiting
+2022/12/23 08:14:40 [notice] 25#25: exiting
+2022/12/23 08:14:40 [notice] 32#32: gracefully shutting down
+2022/12/23 08:14:40 [notice] 31#31: gracefully shutting down
+2022/12/23 08:14:40 [notice] 23#23: exiting
+2022/12/23 08:14:40 [notice] 26#26: exiting
+2022/12/23 08:14:40 [notice] 27#27: exiting
+2022/12/23 08:14:40 [notice] 28#28: exiting
+2022/12/23 08:14:40 [notice] 29#29: exiting
+2022/12/23 08:14:40 [notice] 32#32: exiting
+2022/12/23 08:14:40 [notice] 31#31: exiting
+2022/12/23 08:14:40 [notice] 24#24: exit
+2022/12/23 08:14:40 [notice] 22#22: exit
+2022/12/23 08:14:40 [notice] 25#25: exit
+2022/12/23 08:14:40 [notice] 26#26: exit
+2022/12/23 08:14:40 [notice] 23#23: exit
+2022/12/23 08:14:40 [notice] 27#27: exit
+2022/12/23 08:14:40 [notice] 28#28: exit
+2022/12/23 08:14:40 [notice] 32#32: exit
+2022/12/23 08:14:40 [notice] 31#31: exit
+2022/12/23 08:14:40 [notice] 29#29: exit
+2022/12/23 08:14:40 [notice] 33#33: gracefully shutting down
+2022/12/23 08:14:40 [notice] 30#30: gracefully shutting down
+2022/12/23 08:14:40 [notice] 33#33: exiting
+2022/12/23 08:14:40 [notice] 30#30: exiting
+2022/12/23 08:14:40 [notice] 33#33: exit
+2022/12/23 08:14:40 [notice] 30#30: exit
+2022/12/23 08:14:40 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/23 08:14:40 [notice] 1#1: worker process 32 exited with code 0
+2022/12/23 08:14:40 [notice] 1#1: worker process 23 exited with code 0
+2022/12/23 08:14:40 [notice] 1#1: worker process 33 exited with code 0
+2022/12/23 08:14:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:14:40 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/23 08:14:40 [notice] 1#1: worker process 31 exited with code 0
+2022/12/23 08:14:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:14:40 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/12/23 08:14:40 [notice] 1#1: worker process 22 exited with code 0
+2022/12/23 08:14:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:14:40 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/12/23 08:14:40 [notice] 1#1: worker process 27 exited with code 0
+2022/12/23 08:14:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:14:40 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/23 08:14:40 [notice] 1#1: worker process 25 exited with code 0
+2022/12/23 08:14:40 [notice] 1#1: worker process 26 exited with code 0
+2022/12/23 08:14:40 [notice] 1#1: worker process 30 exited with code 0
+2022/12/23 08:14:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:14:40 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/23 08:14:40 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/12/23 08:14:40 [notice] 1#1: worker process 28 exited with code 0
+2022/12/23 08:14:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:14:40 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/12/23 08:14:40 [notice] 1#1: worker process 29 exited with code 0
+2022/12/23 08:14:40 [notice] 1#1: worker process 24 exited with code 0
+2022/12/23 08:14:40 [notice] 1#1: exit
+2022/12/23 08:14:42 [notice] 1#1: using the "epoll" event method
+2022/12/23 08:14:42 [notice] 1#1: nginx/1.23.1
+2022/12/23 08:14:42 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 08:14:42 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 08:14:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 08:14:42 [notice] 1#1: start worker processes
+2022/12/23 08:14:42 [notice] 1#1: start worker process 22
+2022/12/23 08:14:42 [notice] 1#1: start worker process 23
+2022/12/23 08:14:42 [notice] 1#1: start worker process 24
+2022/12/23 08:14:42 [notice] 1#1: start worker process 25
+2022/12/23 08:14:42 [notice] 1#1: start worker process 26
+2022/12/23 08:14:42 [notice] 1#1: start worker process 27
+2022/12/23 08:14:42 [notice] 1#1: start worker process 28
+2022/12/23 08:14:42 [notice] 1#1: start worker process 29
+2022/12/23 08:14:42 [notice] 1#1: start worker process 30
+2022/12/23 08:14:42 [notice] 1#1: start worker process 31
+2022/12/23 08:14:42 [notice] 1#1: start worker process 32
+2022/12/23 08:14:42 [notice] 1#1: start worker process 33
+2022/12/23 08:14:44 [error] 22#22: *1 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/12/23 08:14:44 [error] 23#23: *2 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/12/23 08:14:45 [error] 25#25: *4 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/12/23 08:14:45 [error] 24#24: *3 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/12/23 08:14:45 [error] 27#27: *5 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/12/23 08:14:45 [error] 26#26: *6 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/12/23 08:14:45 [error] 28#28: *8 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/12/23 08:14:45 [error] 29#29: *7 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/12/23 08:14:45 [error] 31#31: *9 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/12/23 08:14:45 [error] 30#30: *10 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/12/23 08:14:45 [error] 32#32: *11 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/12/23 08:14:45 [error] 33#33: *12 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/12/23 08:14:45 [error] 23#23: *14 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/12/23 08:14:45 [error] 22#22: *13 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/12/23 08:14:45 [error] 22#22: *16 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/12/23 08:14:46 [error] 23#23: *15 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/12/23 08:14:46 [error] 22#22: *17 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/12/23 08:14:46 [error] 22#22: *18 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/12/23 08:15:57 [error] 23#23: *19 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:15:57 [error] 23#23: *20 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "coursework.docker", referrer: "http://coursework.docker/"
+2022/12/23 08:15:58 [error] 23#23: *22 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:15:58 [error] 22#22: *21 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "coursework.docker", referrer: "http://coursework.docker/"
+2022/12/23 08:15:58 [error] 23#23: *23 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:15:58 [error] 22#22: *24 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "coursework.docker", referrer: "http://coursework.docker/"
+2022/12/23 08:15:59 [error] 22#22: *26 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:15:59 [error] 23#23: *25 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "coursework.docker", referrer: "http://coursework.docker/"
+2022/12/23 08:15:59 [error] 22#22: *27 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:15:59 [error] 22#22: *28 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "coursework.docker", referrer: "http://coursework.docker/"
+2022/12/23 08:15:59 [error] 22#22: *30 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:16:00 [error] 23#23: *29 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "coursework.docker", referrer: "http://coursework.docker/"
+2022/12/23 08:16:00 [error] 22#22: *32 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:16:00 [error] 23#23: *31 could not find named location "@rewrite", client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "coursework.docker", referrer: "http://coursework.docker/"
+2022/12/23 08:16:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/23 08:16:16 [notice] 22#22: gracefully shutting down
+2022/12/23 08:16:16 [notice] 23#23: gracefully shutting down
+2022/12/23 08:16:16 [notice] 24#24: gracefully shutting down
+2022/12/23 08:16:16 [notice] 26#26: gracefully shutting down
+2022/12/23 08:16:16 [notice] 25#25: gracefully shutting down
+2022/12/23 08:16:16 [notice] 27#27: gracefully shutting down
+2022/12/23 08:16:16 [notice] 28#28: gracefully shutting down
+2022/12/23 08:16:16 [notice] 30#30: gracefully shutting down
+2022/12/23 08:16:16 [notice] 32#32: gracefully shutting down
+2022/12/23 08:16:16 [notice] 29#29: gracefully shutting down
+2022/12/23 08:16:16 [notice] 31#31: gracefully shutting down
+2022/12/23 08:16:16 [notice] 22#22: exiting
+2022/12/23 08:16:16 [notice] 23#23: exiting
+2022/12/23 08:16:16 [notice] 24#24: exiting
+2022/12/23 08:16:16 [notice] 26#26: exiting
+2022/12/23 08:16:16 [notice] 25#25: exiting
+2022/12/23 08:16:16 [notice] 27#27: exiting
+2022/12/23 08:16:16 [notice] 28#28: exiting
+2022/12/23 08:16:16 [notice] 30#30: exiting
+2022/12/23 08:16:16 [notice] 32#32: exiting
+2022/12/23 08:16:16 [notice] 29#29: exiting
+2022/12/23 08:16:16 [notice] 31#31: exiting
+2022/12/23 08:16:16 [notice] 23#23: exit
+2022/12/23 08:16:16 [notice] 22#22: exit
+2022/12/23 08:16:16 [notice] 24#24: exit
+2022/12/23 08:16:16 [notice] 26#26: exit
+2022/12/23 08:16:16 [notice] 27#27: exit
+2022/12/23 08:16:16 [notice] 25#25: exit
+2022/12/23 08:16:16 [notice] 28#28: exit
+2022/12/23 08:16:16 [notice] 31#31: exit
+2022/12/23 08:16:16 [notice] 32#32: exit
+2022/12/23 08:16:16 [notice] 30#30: exit
+2022/12/23 08:16:16 [notice] 29#29: exit
+2022/12/23 08:16:16 [notice] 33#33: gracefully shutting down
+2022/12/23 08:16:16 [notice] 33#33: exiting
+2022/12/23 08:16:16 [notice] 33#33: exit
+2022/12/23 08:16:16 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/23 08:16:16 [notice] 1#1: worker process 25 exited with code 0
+2022/12/23 08:16:16 [notice] 1#1: worker process 32 exited with code 0
+2022/12/23 08:16:16 [notice] 1#1: worker process 33 exited with code 0
+2022/12/23 08:16:16 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:16:16 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/23 08:16:16 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/23 08:16:16 [notice] 1#1: worker process 31 exited with code 0
+2022/12/23 08:16:16 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:16:16 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/12/23 08:16:16 [notice] 1#1: worker process 22 exited with code 0
+2022/12/23 08:16:16 [notice] 1#1: worker process 26 exited with code 0
+2022/12/23 08:16:16 [notice] 1#1: worker process 28 exited with code 0
+2022/12/23 08:16:16 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:16:16 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/23 08:16:16 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/12/23 08:16:16 [notice] 1#1: worker process 24 exited with code 0
+2022/12/23 08:16:16 [notice] 1#1: worker process 29 exited with code 0
+2022/12/23 08:16:16 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:16:16 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/23 08:16:16 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/23 08:16:16 [notice] 1#1: worker process 30 exited with code 0
+2022/12/23 08:16:16 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:16:16 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/12/23 08:16:16 [notice] 1#1: worker process 23 exited with code 0
+2022/12/23 08:16:16 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:16:16 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/12/23 08:16:16 [notice] 1#1: worker process 27 exited with code 0
+2022/12/23 08:16:16 [notice] 1#1: exit
+2022/12/23 08:16:18 [notice] 1#1: using the "epoll" event method
+2022/12/23 08:16:18 [notice] 1#1: nginx/1.23.1
+2022/12/23 08:16:18 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 08:16:18 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 08:16:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 08:16:18 [notice] 1#1: start worker processes
+2022/12/23 08:16:18 [notice] 1#1: start worker process 22
+2022/12/23 08:16:18 [notice] 1#1: start worker process 23
+2022/12/23 08:16:18 [notice] 1#1: start worker process 24
+2022/12/23 08:16:18 [notice] 1#1: start worker process 25
+2022/12/23 08:16:18 [notice] 1#1: start worker process 26
+2022/12/23 08:16:18 [notice] 1#1: start worker process 27
+2022/12/23 08:16:18 [notice] 1#1: start worker process 28
+2022/12/23 08:16:18 [notice] 1#1: start worker process 29
+2022/12/23 08:16:18 [notice] 1#1: start worker process 30
+2022/12/23 08:16:18 [notice] 1#1: start worker process 31
+2022/12/23 08:16:18 [notice] 1#1: start worker process 32
+2022/12/23 08:16:18 [notice] 1#1: start worker process 33
+2022/12/23 08:16:23 [error] 22#22: *1 "/var/www/public/index.php" is not found (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:16:23 [error] 22#22: *1 open() "/var/www/public/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "coursework.docker", referrer: "http://coursework.docker/"
+2022/12/23 08:16:24 [error] 22#22: *1 "/var/www/public/index.php" is not found (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:16:24 [error] 22#22: *1 "/var/www/public/index.php" is not found (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:16:24 [error] 22#22: *1 "/var/www/public/index.php" is not found (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:16:24 [error] 22#22: *1 "/var/www/public/index.php" is not found (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:16:25 [error] 22#22: *1 "/var/www/public/index.php" is not found (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:16:25 [error] 22#22: *1 "/var/www/public/index.php" is not found (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:16:25 [error] 22#22: *1 "/var/www/public/index.php" is not found (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:17:07 [error] 22#22: *1 "/var/www/public/index.php" is not found (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:17:07 [error] 22#22: *1 "/var/www/public/index.php" is not found (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:17:07 [error] 22#22: *1 "/var/www/public/index.php" is not found (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:17:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/23 08:17:10 [notice] 22#22: gracefully shutting down
+2022/12/23 08:17:10 [notice] 23#23: gracefully shutting down
+2022/12/23 08:17:10 [notice] 24#24: gracefully shutting down
+2022/12/23 08:17:10 [notice] 25#25: gracefully shutting down
+2022/12/23 08:17:10 [notice] 26#26: gracefully shutting down
+2022/12/23 08:17:10 [notice] 28#28: gracefully shutting down
+2022/12/23 08:17:10 [notice] 27#27: gracefully shutting down
+2022/12/23 08:17:10 [notice] 29#29: gracefully shutting down
+2022/12/23 08:17:10 [notice] 31#31: gracefully shutting down
+2022/12/23 08:17:10 [notice] 24#24: exiting
+2022/12/23 08:17:10 [notice] 25#25: exiting
+2022/12/23 08:17:10 [notice] 33#33: gracefully shutting down
+2022/12/23 08:17:10 [notice] 26#26: exiting
+2022/12/23 08:17:10 [notice] 28#28: exiting
+2022/12/23 08:17:10 [notice] 32#32: gracefully shutting down
+2022/12/23 08:17:10 [notice] 27#27: exiting
+2022/12/23 08:17:10 [notice] 29#29: exiting
+2022/12/23 08:17:10 [notice] 31#31: exiting
+2022/12/23 08:17:10 [notice] 22#22: exiting
+2022/12/23 08:17:10 [notice] 30#30: gracefully shutting down
+2022/12/23 08:17:10 [notice] 33#33: exiting
+2022/12/23 08:17:10 [notice] 32#32: exiting
+2022/12/23 08:17:10 [notice] 28#28: exit
+2022/12/23 08:17:10 [notice] 25#25: exit
+2022/12/23 08:17:10 [notice] 24#24: exit
+2022/12/23 08:17:10 [notice] 26#26: exit
+2022/12/23 08:17:10 [notice] 29#29: exit
+2022/12/23 08:17:10 [notice] 27#27: exit
+2022/12/23 08:17:10 [notice] 31#31: exit
+2022/12/23 08:17:10 [notice] 22#22: exit
+2022/12/23 08:17:10 [notice] 30#30: exiting
+2022/12/23 08:17:10 [notice] 32#32: exit
+2022/12/23 08:17:10 [notice] 33#33: exit
+2022/12/23 08:17:10 [notice] 30#30: exit
+2022/12/23 08:17:10 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/12/23 08:17:10 [notice] 1#1: worker process 27 exited with code 0
+2022/12/23 08:17:10 [notice] 1#1: worker process 28 exited with code 0
+2022/12/23 08:17:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:17:10 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/12/23 08:17:10 [notice] 1#1: worker process 29 exited with code 0
+2022/12/23 08:17:10 [notice] 1#1: worker process 33 exited with code 0
+2022/12/23 08:17:10 [notice] 1#1: worker process 22 exited with code 0
+2022/12/23 08:17:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:17:10 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/23 08:17:10 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/23 08:17:10 [notice] 1#1: worker process 30 exited with code 0
+2022/12/23 08:17:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:17:10 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/23 08:17:10 [notice] 1#1: worker process 25 exited with code 0
+2022/12/23 08:17:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:17:10 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/23 08:17:10 [notice] 1#1: worker process 31 exited with code 0
+2022/12/23 08:17:10 [notice] 1#1: worker process 32 exited with code 0
+2022/12/23 08:17:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:17:10 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/23 08:17:10 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/23 08:17:10 [notice] 1#1: worker process 26 exited with code 0
+2022/12/23 08:17:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:17:10 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/23 08:17:10 [notice] 1#1: worker process 24 exited with code 0
+2022/12/23 08:17:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:17:23 [notice] 1#1: using the "epoll" event method
+2022/12/23 08:17:23 [notice] 1#1: nginx/1.23.1
+2022/12/23 08:17:23 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 08:17:23 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 08:17:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 08:17:23 [notice] 1#1: start worker processes
+2022/12/23 08:17:23 [notice] 1#1: start worker process 22
+2022/12/23 08:17:23 [notice] 1#1: start worker process 23
+2022/12/23 08:17:23 [notice] 1#1: start worker process 24
+2022/12/23 08:17:23 [notice] 1#1: start worker process 25
+2022/12/23 08:17:23 [notice] 1#1: start worker process 26
+2022/12/23 08:17:23 [notice] 1#1: start worker process 27
+2022/12/23 08:17:23 [notice] 1#1: start worker process 28
+2022/12/23 08:17:23 [notice] 1#1: start worker process 29
+2022/12/23 08:17:23 [notice] 1#1: start worker process 30
+2022/12/23 08:17:23 [notice] 1#1: start worker process 31
+2022/12/23 08:17:23 [notice] 1#1: start worker process 32
+2022/12/23 08:17:23 [notice] 1#1: start worker process 33
+2022/12/23 08:17:25 [error] 24#24: *2 "/var/www/public/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:17:26 [error] 24#24: *2 "/var/www/public/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:17:26 [error] 24#24: *2 "/var/www/public/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:17:26 [error] 24#24: *2 "/var/www/public/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:17:26 [error] 24#24: *2 "/var/www/public/index.html" is not found (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET / HTTP/1.1", host: "coursework.docker"
+2022/12/23 08:19:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/23 08:19:04 [notice] 22#22: gracefully shutting down
+2022/12/23 08:19:04 [notice] 24#24: gracefully shutting down
+2022/12/23 08:19:04 [notice] 23#23: gracefully shutting down
+2022/12/23 08:19:04 [notice] 25#25: gracefully shutting down
+2022/12/23 08:19:04 [notice] 26#26: gracefully shutting down
+2022/12/23 08:19:04 [notice] 23#23: exiting
+2022/12/23 08:19:04 [notice] 27#27: gracefully shutting down
+2022/12/23 08:19:04 [notice] 28#28: gracefully shutting down
+2022/12/23 08:19:04 [notice] 22#22: exiting
+2022/12/23 08:19:04 [notice] 29#29: gracefully shutting down
+2022/12/23 08:19:04 [notice] 24#24: exiting
+2022/12/23 08:19:04 [notice] 31#31: gracefully shutting down
+2022/12/23 08:19:04 [notice] 33#33: gracefully shutting down
+2022/12/23 08:19:04 [notice] 25#25: exiting
+2022/12/23 08:19:04 [notice] 26#26: exiting
+2022/12/23 08:19:04 [notice] 27#27: exiting
+2022/12/23 08:19:04 [notice] 28#28: exiting
+2022/12/23 08:19:04 [notice] 23#23: exit
+2022/12/23 08:19:04 [notice] 29#29: exiting
+2022/12/23 08:19:04 [notice] 31#31: exiting
+2022/12/23 08:19:04 [notice] 22#22: exit
+2022/12/23 08:19:04 [notice] 32#32: gracefully shutting down
+2022/12/23 08:19:04 [notice] 24#24: exit
+2022/12/23 08:19:04 [notice] 33#33: exiting
+2022/12/23 08:19:04 [notice] 25#25: exit
+2022/12/23 08:19:04 [notice] 26#26: exit
+2022/12/23 08:19:04 [notice] 27#27: exit
+2022/12/23 08:19:04 [notice] 28#28: exit
+2022/12/23 08:19:04 [notice] 32#32: exiting
+2022/12/23 08:19:04 [notice] 31#31: exit
+2022/12/23 08:19:04 [notice] 29#29: exit
+2022/12/23 08:19:04 [notice] 33#33: exit
+2022/12/23 08:19:04 [notice] 32#32: exit
+2022/12/23 08:19:04 [notice] 30#30: gracefully shutting down
+2022/12/23 08:19:04 [notice] 30#30: exiting
+2022/12/23 08:19:04 [notice] 30#30: exit
+2022/12/23 08:19:04 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/23 08:19:04 [notice] 1#1: worker process 25 exited with code 0
+2022/12/23 08:19:04 [notice] 1#1: worker process 27 exited with code 0
+2022/12/23 08:19:04 [notice] 1#1: worker process 30 exited with code 0
+2022/12/23 08:19:04 [notice] 1#1: worker process 33 exited with code 0
+2022/12/23 08:19:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:19:04 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/23 08:19:04 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/12/23 08:19:04 [notice] 1#1: worker process 24 exited with code 0
+2022/12/23 08:19:04 [notice] 1#1: worker process 28 exited with code 0
+2022/12/23 08:19:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:19:04 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/23 08:19:04 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/23 08:19:04 [notice] 1#1: worker process 32 exited with code 0
+2022/12/23 08:19:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:19:04 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/23 08:19:04 [notice] 1#1: worker process 22 exited with code 0
+2022/12/23 08:19:04 [notice] 1#1: worker process 23 exited with code 0
+2022/12/23 08:19:04 [notice] 1#1: worker process 31 exited with code 0
+2022/12/23 08:19:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:19:04 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/12/23 08:19:04 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/23 08:19:04 [notice] 1#1: worker process 26 exited with code 0
+2022/12/23 08:19:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:19:04 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/12/23 08:19:04 [notice] 1#1: worker process 29 exited with code 0
+2022/12/23 08:19:04 [notice] 1#1: exit
+2022/12/23 08:19:09 [notice] 1#1: using the "epoll" event method
+2022/12/23 08:19:09 [notice] 1#1: nginx/1.23.1
+2022/12/23 08:19:09 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 08:19:09 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 08:19:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 08:19:09 [notice] 1#1: start worker processes
+2022/12/23 08:19:09 [notice] 1#1: start worker process 22
+2022/12/23 08:19:09 [notice] 1#1: start worker process 23
+2022/12/23 08:19:09 [notice] 1#1: start worker process 24
+2022/12/23 08:19:09 [notice] 1#1: start worker process 25
+2022/12/23 08:19:09 [notice] 1#1: start worker process 26
+2022/12/23 08:19:09 [notice] 1#1: start worker process 27
+2022/12/23 08:19:09 [notice] 1#1: start worker process 28
+2022/12/23 08:19:09 [notice] 1#1: start worker process 29
+2022/12/23 08:19:09 [notice] 1#1: start worker process 30
+2022/12/23 08:19:09 [notice] 1#1: start worker process 31
+2022/12/23 08:19:09 [notice] 1#1: start worker process 32
+2022/12/23 08:19:09 [notice] 1#1: start worker process 33
+2022/12/23 08:27:58 [error] 24#24: *3 open() "/var/www/public/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/12/23 08:41:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/23 08:41:15 [notice] 24#24: gracefully shutting down
+2022/12/23 08:41:15 [notice] 26#26: gracefully shutting down
+2022/12/23 08:41:15 [notice] 27#27: gracefully shutting down
+2022/12/23 08:41:15 [notice] 23#23: gracefully shutting down
+2022/12/23 08:41:15 [notice] 22#22: gracefully shutting down
+2022/12/23 08:41:15 [notice] 27#27: exiting
+2022/12/23 08:41:15 [notice] 25#25: gracefully shutting down
+2022/12/23 08:41:15 [notice] 24#24: exiting
+2022/12/23 08:41:15 [notice] 26#26: exiting
+2022/12/23 08:41:15 [notice] 30#30: gracefully shutting down
+2022/12/23 08:41:15 [notice] 23#23: exiting
+2022/12/23 08:41:15 [notice] 28#28: gracefully shutting down
+2022/12/23 08:41:15 [notice] 22#22: exiting
+2022/12/23 08:41:15 [notice] 29#29: gracefully shutting down
+2022/12/23 08:41:15 [notice] 25#25: exiting
+2022/12/23 08:41:15 [notice] 32#32: gracefully shutting down
+2022/12/23 08:41:15 [notice] 31#31: gracefully shutting down
+2022/12/23 08:41:15 [notice] 27#27: exit
+2022/12/23 08:41:15 [notice] 30#30: exiting
+2022/12/23 08:41:15 [notice] 24#24: exit
+2022/12/23 08:41:15 [notice] 26#26: exit
+2022/12/23 08:41:15 [notice] 28#28: exiting
+2022/12/23 08:41:15 [notice] 23#23: exit
+2022/12/23 08:41:15 [notice] 29#29: exiting
+2022/12/23 08:41:15 [notice] 22#22: exit
+2022/12/23 08:41:15 [notice] 32#32: exiting
+2022/12/23 08:41:15 [notice] 25#25: exit
+2022/12/23 08:41:15 [notice] 31#31: exiting
+2022/12/23 08:41:15 [notice] 30#30: exit
+2022/12/23 08:41:15 [notice] 28#28: exit
+2022/12/23 08:41:15 [notice] 29#29: exit
+2022/12/23 08:41:15 [notice] 32#32: exit
+2022/12/23 08:41:15 [notice] 31#31: exit
+2022/12/23 08:41:15 [notice] 33#33: gracefully shutting down
+2022/12/23 08:41:15 [notice] 33#33: exiting
+2022/12/23 08:41:15 [notice] 33#33: exit
+2022/12/23 08:41:15 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/12/23 08:41:15 [notice] 1#1: worker process 22 exited with code 0
+2022/12/23 08:41:15 [notice] 1#1: worker process 26 exited with code 0
+2022/12/23 08:41:15 [notice] 1#1: worker process 32 exited with code 0
+2022/12/23 08:41:15 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:41:15 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/23 08:41:15 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/12/23 08:41:15 [notice] 1#1: worker process 23 exited with code 0
+2022/12/23 08:41:15 [notice] 1#1: worker process 28 exited with code 0
+2022/12/23 08:41:15 [notice] 1#1: worker process 29 exited with code 0
+2022/12/23 08:41:15 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:41:15 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/12/23 08:41:15 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/23 08:41:15 [notice] 1#1: worker process 24 exited with code 0
+2022/12/23 08:41:15 [notice] 1#1: worker process 30 exited with code 0
+2022/12/23 08:41:15 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:41:15 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/23 08:41:15 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/23 08:41:15 [notice] 1#1: worker process 27 exited with code 0
+2022/12/23 08:41:15 [notice] 1#1: worker process 31 exited with code 0
+2022/12/23 08:41:15 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:41:15 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/23 08:41:15 [notice] 1#1: worker process 25 exited with code 0
+2022/12/23 08:41:15 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:41:15 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/23 08:41:15 [notice] 1#1: worker process 33 exited with code 0
+2022/12/23 08:41:15 [notice] 1#1: exit
+2022/12/23 08:41:18 [notice] 1#1: using the "epoll" event method
+2022/12/23 08:41:18 [notice] 1#1: nginx/1.23.1
+2022/12/23 08:41:18 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 08:41:18 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 08:41:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 08:41:18 [notice] 1#1: start worker processes
+2022/12/23 08:41:18 [notice] 1#1: start worker process 22
+2022/12/23 08:41:18 [notice] 1#1: start worker process 23
+2022/12/23 08:41:18 [notice] 1#1: start worker process 24
+2022/12/23 08:41:18 [notice] 1#1: start worker process 25
+2022/12/23 08:41:18 [notice] 1#1: start worker process 26
+2022/12/23 08:41:18 [notice] 1#1: start worker process 27
+2022/12/23 08:41:18 [notice] 1#1: start worker process 28
+2022/12/23 08:41:18 [notice] 1#1: start worker process 29
+2022/12/23 08:41:18 [notice] 1#1: start worker process 30
+2022/12/23 08:41:18 [notice] 1#1: start worker process 31
+2022/12/23 08:41:18 [notice] 1#1: start worker process 32
+2022/12/23 08:41:18 [notice] 1#1: start worker process 33
+2022/12/23 08:41:34 [error] 24#24: *3 open() "/var/www/public/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: coursework.docker, request: "GET /favicon.ico HTTP/1.1", host: "0.0.0.0", referrer: "http://0.0.0.0/"
+2022/12/23 08:43:17 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/23 08:43:17 [notice] 22#22: gracefully shutting down
+2022/12/23 08:43:17 [notice] 23#23: gracefully shutting down
+2022/12/23 08:43:17 [notice] 25#25: gracefully shutting down
+2022/12/23 08:43:17 [notice] 24#24: gracefully shutting down
+2022/12/23 08:43:17 [notice] 26#26: gracefully shutting down
+2022/12/23 08:43:17 [notice] 27#27: gracefully shutting down
+2022/12/23 08:43:17 [notice] 28#28: gracefully shutting down
+2022/12/23 08:43:17 [notice] 22#22: exiting
+2022/12/23 08:43:17 [notice] 29#29: gracefully shutting down
+2022/12/23 08:43:17 [notice] 23#23: exiting
+2022/12/23 08:43:17 [notice] 30#30: gracefully shutting down
+2022/12/23 08:43:17 [notice] 32#32: gracefully shutting down
+2022/12/23 08:43:17 [notice] 25#25: exiting
+2022/12/23 08:43:17 [notice] 24#24: exiting
+2022/12/23 08:43:17 [notice] 23#23: exit
+2022/12/23 08:43:17 [notice] 26#26: exiting
+2022/12/23 08:43:17 [notice] 27#27: exiting
+2022/12/23 08:43:17 [notice] 28#28: exiting
+2022/12/23 08:43:17 [notice] 29#29: exiting
+2022/12/23 08:43:17 [notice] 22#22: exit
+2022/12/23 08:43:17 [notice] 30#30: exiting
+2022/12/23 08:43:17 [notice] 32#32: exiting
+2022/12/23 08:43:17 [notice] 24#24: exit
+2022/12/23 08:43:17 [notice] 25#25: exit
+2022/12/23 08:43:17 [notice] 28#28: exit
+2022/12/23 08:43:17 [notice] 26#26: exit
+2022/12/23 08:43:17 [notice] 27#27: exit
+2022/12/23 08:43:17 [notice] 29#29: exit
+2022/12/23 08:43:17 [notice] 31#31: gracefully shutting down
+2022/12/23 08:43:17 [notice] 32#32: exit
+2022/12/23 08:43:17 [notice] 30#30: exit
+2022/12/23 08:43:17 [notice] 31#31: exiting
+2022/12/23 08:43:17 [notice] 31#31: exit
+2022/12/23 08:43:17 [notice] 33#33: gracefully shutting down
+2022/12/23 08:43:17 [notice] 33#33: exiting
+2022/12/23 08:43:17 [notice] 33#33: exit
+2022/12/23 08:43:17 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/23 08:43:17 [notice] 1#1: worker process 28 exited with code 0
+2022/12/23 08:43:17 [notice] 1#1: worker process 25 exited with code 0
+2022/12/23 08:43:17 [notice] 1#1: worker process 29 exited with code 0
+2022/12/23 08:43:17 [notice] 1#1: worker process 31 exited with code 0
+2022/12/23 08:43:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:43:17 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/12/23 08:43:17 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/23 08:43:17 [notice] 1#1: worker process 30 exited with code 0
+2022/12/23 08:43:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:43:17 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/12/23 08:43:17 [notice] 1#1: worker process 22 exited with code 0
+2022/12/23 08:43:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:43:17 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/23 08:43:17 [notice] 1#1: worker process 26 exited with code 0
+2022/12/23 08:43:17 [notice] 1#1: worker process 23 exited with code 0
+2022/12/23 08:43:17 [notice] 1#1: worker process 32 exited with code 0
+2022/12/23 08:43:17 [notice] 1#1: worker process 33 exited with code 0
+2022/12/23 08:43:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 08:43:17 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/12/23 08:43:17 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/12/23 08:43:17 [notice] 1#1: worker process 27 exited with code 0
+2022/12/23 08:43:17 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/23 08:43:17 [notice] 1#1: worker process 24 exited with code 0
+2022/12/23 08:43:17 [notice] 1#1: exit
+2022/12/23 10:00:44 [notice] 1#1: using the "epoll" event method
+2022/12/23 10:00:44 [notice] 1#1: nginx/1.23.1
+2022/12/23 10:00:44 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 10:00:44 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 10:00:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 10:00:44 [notice] 1#1: start worker processes
+2022/12/23 10:00:44 [notice] 1#1: start worker process 22
+2022/12/23 10:00:44 [notice] 1#1: start worker process 23
+2022/12/23 10:00:44 [notice] 1#1: start worker process 24
+2022/12/23 10:00:44 [notice] 1#1: start worker process 25
+2022/12/23 10:00:44 [notice] 1#1: start worker process 26
+2022/12/23 10:00:44 [notice] 1#1: start worker process 27
+2022/12/23 10:00:44 [notice] 1#1: start worker process 28
+2022/12/23 10:00:44 [notice] 1#1: start worker process 29
+2022/12/23 10:00:44 [notice] 1#1: start worker process 30
+2022/12/23 10:00:44 [notice] 1#1: start worker process 31
+2022/12/23 10:00:44 [notice] 1#1: start worker process 32
+2022/12/23 10:00:44 [notice] 1#1: start worker process 33
+2022/12/23 10:00:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/23 10:00:50 [notice] 22#22: gracefully shutting down
+2022/12/23 10:00:50 [notice] 23#23: gracefully shutting down
+2022/12/23 10:00:50 [notice] 25#25: gracefully shutting down
+2022/12/23 10:00:50 [notice] 24#24: gracefully shutting down
+2022/12/23 10:00:50 [notice] 26#26: gracefully shutting down
+2022/12/23 10:00:50 [notice] 27#27: gracefully shutting down
+2022/12/23 10:00:50 [notice] 28#28: gracefully shutting down
+2022/12/23 10:00:50 [notice] 29#29: gracefully shutting down
+2022/12/23 10:00:50 [notice] 30#30: gracefully shutting down
+2022/12/23 10:00:50 [notice] 22#22: exiting
+2022/12/23 10:00:50 [notice] 31#31: gracefully shutting down
+2022/12/23 10:00:50 [notice] 23#23: exiting
+2022/12/23 10:00:50 [notice] 25#25: exiting
+2022/12/23 10:00:50 [notice] 24#24: exiting
+2022/12/23 10:00:50 [notice] 26#26: exiting
+2022/12/23 10:00:50 [notice] 27#27: exiting
+2022/12/23 10:00:50 [notice] 28#28: exiting
+2022/12/23 10:00:50 [notice] 32#32: gracefully shutting down
+2022/12/23 10:00:50 [notice] 29#29: exiting
+2022/12/23 10:00:50 [notice] 30#30: exiting
+2022/12/23 10:00:50 [notice] 31#31: exiting
+2022/12/23 10:00:50 [notice] 22#22: exit
+2022/12/23 10:00:50 [notice] 23#23: exit
+2022/12/23 10:00:50 [notice] 25#25: exit
+2022/12/23 10:00:50 [notice] 26#26: exit
+2022/12/23 10:00:50 [notice] 27#27: exit
+2022/12/23 10:00:50 [notice] 24#24: exit
+2022/12/23 10:00:50 [notice] 32#32: exiting
+2022/12/23 10:00:50 [notice] 28#28: exit
+2022/12/23 10:00:50 [notice] 30#30: exit
+2022/12/23 10:00:50 [notice] 31#31: exit
+2022/12/23 10:00:50 [notice] 29#29: exit
+2022/12/23 10:00:50 [notice] 32#32: exit
+2022/12/23 10:00:50 [notice] 33#33: gracefully shutting down
+2022/12/23 10:00:50 [notice] 33#33: exiting
+2022/12/23 10:00:50 [notice] 33#33: exit
+2022/12/23 10:00:50 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/23 10:00:50 [notice] 1#1: worker process 26 exited with code 0
+2022/12/23 10:00:50 [notice] 1#1: worker process 29 exited with code 0
+2022/12/23 10:00:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:00:50 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/12/23 10:00:50 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/12/23 10:00:50 [notice] 1#1: worker process 22 exited with code 0
+2022/12/23 10:00:50 [notice] 1#1: worker process 24 exited with code 0
+2022/12/23 10:00:50 [notice] 1#1: worker process 28 exited with code 0
+2022/12/23 10:00:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:00:50 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/12/23 10:00:50 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/23 10:00:50 [notice] 1#1: worker process 31 exited with code 0
+2022/12/23 10:00:50 [notice] 1#1: worker process 27 exited with code 0
+2022/12/23 10:00:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:00:50 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/12/23 10:00:50 [notice] 1#1: worker process 23 exited with code 0
+2022/12/23 10:00:50 [notice] 1#1: worker process 32 exited with code 0
+2022/12/23 10:00:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:00:50 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/23 10:00:50 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/23 10:00:50 [notice] 1#1: worker process 33 exited with code 0
+2022/12/23 10:00:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:00:50 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/23 10:00:50 [notice] 1#1: worker process 30 exited with code 0
+2022/12/23 10:00:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:00:50 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/23 10:00:50 [notice] 1#1: worker process 25 exited with code 0
+2022/12/23 10:00:50 [notice] 1#1: exit
+2022/12/23 10:00:51 [notice] 1#1: using the "epoll" event method
+2022/12/23 10:00:51 [notice] 1#1: nginx/1.23.1
+2022/12/23 10:00:51 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 10:00:51 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 10:00:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 10:00:51 [notice] 1#1: start worker processes
+2022/12/23 10:00:51 [notice] 1#1: start worker process 22
+2022/12/23 10:00:51 [notice] 1#1: start worker process 23
+2022/12/23 10:00:51 [notice] 1#1: start worker process 24
+2022/12/23 10:00:51 [notice] 1#1: start worker process 25
+2022/12/23 10:00:51 [notice] 1#1: start worker process 26
+2022/12/23 10:00:51 [notice] 1#1: start worker process 27
+2022/12/23 10:00:51 [notice] 1#1: start worker process 28
+2022/12/23 10:00:51 [notice] 1#1: start worker process 29
+2022/12/23 10:00:51 [notice] 1#1: start worker process 30
+2022/12/23 10:00:51 [notice] 1#1: start worker process 31
+2022/12/23 10:00:51 [notice] 1#1: start worker process 32
+2022/12/23 10:00:51 [notice] 1#1: start worker process 33
+2022/12/23 10:00:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/23 10:00:55 [notice] 22#22: gracefully shutting down
+2022/12/23 10:00:55 [notice] 23#23: gracefully shutting down
+2022/12/23 10:00:55 [notice] 24#24: gracefully shutting down
+2022/12/23 10:00:55 [notice] 26#26: gracefully shutting down
+2022/12/23 10:00:55 [notice] 25#25: gracefully shutting down
+2022/12/23 10:00:55 [notice] 27#27: gracefully shutting down
+2022/12/23 10:00:55 [notice] 28#28: gracefully shutting down
+2022/12/23 10:00:55 [notice] 30#30: gracefully shutting down
+2022/12/23 10:00:55 [notice] 31#31: gracefully shutting down
+2022/12/23 10:00:55 [notice] 22#22: exiting
+2022/12/23 10:00:55 [notice] 29#29: gracefully shutting down
+2022/12/23 10:00:55 [notice] 23#23: exiting
+2022/12/23 10:00:55 [notice] 24#24: exiting
+2022/12/23 10:00:55 [notice] 26#26: exiting
+2022/12/23 10:00:55 [notice] 25#25: exiting
+2022/12/23 10:00:55 [notice] 27#27: exiting
+2022/12/23 10:00:55 [notice] 28#28: exiting
+2022/12/23 10:00:55 [notice] 30#30: exiting
+2022/12/23 10:00:55 [notice] 31#31: exiting
+2022/12/23 10:00:55 [notice] 29#29: exiting
+2022/12/23 10:00:55 [notice] 32#32: gracefully shutting down
+2022/12/23 10:00:55 [notice] 22#22: exit
+2022/12/23 10:00:55 [notice] 24#24: exit
+2022/12/23 10:00:55 [notice] 26#26: exit
+2022/12/23 10:00:55 [notice] 23#23: exit
+2022/12/23 10:00:55 [notice] 25#25: exit
+2022/12/23 10:00:55 [notice] 31#31: exit
+2022/12/23 10:00:55 [notice] 30#30: exit
+2022/12/23 10:00:55 [notice] 29#29: exit
+2022/12/23 10:00:55 [notice] 28#28: exit
+2022/12/23 10:00:55 [notice] 32#32: exiting
+2022/12/23 10:00:55 [notice] 27#27: exit
+2022/12/23 10:00:55 [notice] 32#32: exit
+2022/12/23 10:00:55 [notice] 33#33: gracefully shutting down
+2022/12/23 10:00:55 [notice] 33#33: exiting
+2022/12/23 10:00:55 [notice] 33#33: exit
+2022/12/23 10:00:55 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/23 10:00:55 [notice] 1#1: worker process 28 exited with code 0
+2022/12/23 10:00:55 [notice] 1#1: worker process 29 exited with code 0
+2022/12/23 10:00:55 [notice] 1#1: worker process 31 exited with code 0
+2022/12/23 10:00:55 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:00:55 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/12/23 10:00:55 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/12/23 10:00:55 [notice] 1#1: worker process 23 exited with code 0
+2022/12/23 10:00:55 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:00:55 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/23 10:00:55 [notice] 1#1: worker process 26 exited with code 0
+2022/12/23 10:00:55 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:00:55 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/23 10:00:55 [notice] 1#1: worker process 33 exited with code 0
+2022/12/23 10:00:55 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:00:55 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/12/23 10:00:55 [notice] 1#1: worker process 27 exited with code 0
+2022/12/23 10:00:55 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:00:55 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/23 10:00:55 [notice] 1#1: worker process 25 exited with code 0
+2022/12/23 10:00:55 [notice] 1#1: worker process 32 exited with code 0
+2022/12/23 10:00:55 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:00:55 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/23 10:00:55 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/23 10:00:55 [notice] 1#1: worker process 24 exited with code 0
+2022/12/23 10:00:55 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:00:55 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/12/23 10:00:55 [notice] 1#1: worker process 22 exited with code 0
+2022/12/23 10:00:55 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:00:55 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/23 10:00:55 [notice] 1#1: worker process 30 exited with code 0
+2022/12/23 10:00:55 [notice] 1#1: exit
+2022/12/23 10:00:57 [notice] 1#1: using the "epoll" event method
+2022/12/23 10:00:57 [notice] 1#1: nginx/1.23.1
+2022/12/23 10:00:57 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 10:00:57 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 10:00:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 10:00:57 [notice] 1#1: start worker processes
+2022/12/23 10:00:57 [notice] 1#1: start worker process 22
+2022/12/23 10:00:57 [notice] 1#1: start worker process 23
+2022/12/23 10:00:57 [notice] 1#1: start worker process 24
+2022/12/23 10:00:57 [notice] 1#1: start worker process 25
+2022/12/23 10:00:57 [notice] 1#1: start worker process 26
+2022/12/23 10:00:57 [notice] 1#1: start worker process 27
+2022/12/23 10:00:57 [notice] 1#1: start worker process 28
+2022/12/23 10:00:57 [notice] 1#1: start worker process 29
+2022/12/23 10:00:57 [notice] 1#1: start worker process 30
+2022/12/23 10:00:57 [notice] 1#1: start worker process 31
+2022/12/23 10:00:57 [notice] 1#1: start worker process 32
+2022/12/23 10:00:57 [notice] 1#1: start worker process 33
+2022/12/23 10:01:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/23 10:01:29 [notice] 23#23: gracefully shutting down
+2022/12/23 10:01:29 [notice] 22#22: gracefully shutting down
+2022/12/23 10:01:29 [notice] 25#25: gracefully shutting down
+2022/12/23 10:01:29 [notice] 26#26: gracefully shutting down
+2022/12/23 10:01:29 [notice] 28#28: gracefully shutting down
+2022/12/23 10:01:29 [notice] 29#29: gracefully shutting down
+2022/12/23 10:01:29 [notice] 30#30: gracefully shutting down
+2022/12/23 10:01:29 [notice] 31#31: gracefully shutting down
+2022/12/23 10:01:29 [notice] 24#24: gracefully shutting down
+2022/12/23 10:01:29 [notice] 22#22: exiting
+2022/12/23 10:01:29 [notice] 32#32: gracefully shutting down
+2022/12/23 10:01:29 [notice] 25#25: exiting
+2022/12/23 10:01:29 [notice] 26#26: exiting
+2022/12/23 10:01:29 [notice] 28#28: exiting
+2022/12/23 10:01:29 [notice] 29#29: exiting
+2022/12/23 10:01:29 [notice] 30#30: exiting
+2022/12/23 10:01:29 [notice] 31#31: exiting
+2022/12/23 10:01:29 [notice] 32#32: exiting
+2022/12/23 10:01:29 [notice] 25#25: exit
+2022/12/23 10:01:29 [notice] 26#26: exit
+2022/12/23 10:01:29 [notice] 22#22: exit
+2022/12/23 10:01:29 [notice] 28#28: exit
+2022/12/23 10:01:29 [notice] 29#29: exit
+2022/12/23 10:01:29 [notice] 30#30: exit
+2022/12/23 10:01:29 [notice] 31#31: exit
+2022/12/23 10:01:29 [notice] 32#32: exit
+2022/12/23 10:01:29 [notice] 33#33: gracefully shutting down
+2022/12/23 10:01:29 [notice] 33#33: exiting
+2022/12/23 10:01:29 [notice] 24#24: exiting
+2022/12/23 10:01:29 [notice] 33#33: exit
+2022/12/23 10:01:29 [notice] 27#27: gracefully shutting down
+2022/12/23 10:01:29 [notice] 24#24: exit
+2022/12/23 10:01:29 [notice] 27#27: exiting
+2022/12/23 10:01:29 [notice] 27#27: exit
+2022/12/23 10:01:29 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/23 10:01:29 [notice] 1#1: worker process 28 exited with code 0
+2022/12/23 10:01:29 [notice] 1#1: worker process 32 exited with code 0
+2022/12/23 10:01:29 [notice] 1#1: worker process 33 exited with code 0
+2022/12/23 10:01:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:01:29 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/12/23 10:01:29 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/23 10:01:29 [notice] 1#1: worker process 31 exited with code 0
+2022/12/23 10:01:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:01:29 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/23 10:01:29 [notice] 1#1: worker process 22 exited with code 0
+2022/12/23 10:01:29 [notice] 1#1: worker process 29 exited with code 0
+2022/12/23 10:01:29 [notice] 1#1: worker process 30 exited with code 0
+2022/12/23 10:01:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:01:29 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/12/23 10:01:29 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/12/23 10:01:29 [notice] 1#1: worker process 27 exited with code 0
+2022/12/23 10:01:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:01:29 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/23 10:01:29 [notice] 1#1: worker process 25 exited with code 0
+2022/12/23 10:01:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:01:29 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/23 10:01:29 [notice] 1#1: worker process 24 exited with code 0
+2022/12/23 10:01:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:01:29 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/23 10:01:29 [notice] 1#1: worker process 26 exited with code 0
+2022/12/23 10:01:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:03:08 [notice] 1#1: using the "epoll" event method
+2022/12/23 10:03:08 [notice] 1#1: nginx/1.23.1
+2022/12/23 10:03:08 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 10:03:08 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 10:03:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 10:03:08 [notice] 1#1: start worker processes
+2022/12/23 10:03:08 [notice] 1#1: start worker process 22
+2022/12/23 10:03:08 [notice] 1#1: start worker process 23
+2022/12/23 10:03:08 [notice] 1#1: start worker process 24
+2022/12/23 10:03:08 [notice] 1#1: start worker process 25
+2022/12/23 10:03:08 [notice] 1#1: start worker process 26
+2022/12/23 10:03:08 [notice] 1#1: start worker process 27
+2022/12/23 10:03:08 [notice] 1#1: start worker process 28
+2022/12/23 10:03:08 [notice] 1#1: start worker process 29
+2022/12/23 10:03:08 [notice] 1#1: start worker process 30
+2022/12/23 10:03:08 [notice] 1#1: start worker process 31
+2022/12/23 10:03:08 [notice] 1#1: start worker process 32
+2022/12/23 10:03:08 [notice] 1#1: start worker process 33
+2022/12/23 10:04:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/23 10:04:12 [notice] 22#22: gracefully shutting down
+2022/12/23 10:04:12 [notice] 24#24: gracefully shutting down
+2022/12/23 10:04:12 [notice] 25#25: gracefully shutting down
+2022/12/23 10:04:12 [notice] 27#27: gracefully shutting down
+2022/12/23 10:04:12 [notice] 22#22: exiting
+2022/12/23 10:04:12 [notice] 30#30: gracefully shutting down
+2022/12/23 10:04:12 [notice] 29#29: gracefully shutting down
+2022/12/23 10:04:12 [notice] 31#31: gracefully shutting down
+2022/12/23 10:04:12 [notice] 24#24: exiting
+2022/12/23 10:04:12 [notice] 32#32: gracefully shutting down
+2022/12/23 10:04:12 [notice] 33#33: gracefully shutting down
+2022/12/23 10:04:12 [notice] 25#25: exiting
+2022/12/23 10:04:12 [notice] 26#26: gracefully shutting down
+2022/12/23 10:04:12 [notice] 27#27: exiting
+2022/12/23 10:04:12 [notice] 30#30: exiting
+2022/12/23 10:04:12 [notice] 29#29: exiting
+2022/12/23 10:04:12 [notice] 22#22: exit
+2022/12/23 10:04:12 [notice] 31#31: exiting
+2022/12/23 10:04:12 [notice] 32#32: exiting
+2022/12/23 10:04:12 [notice] 24#24: exit
+2022/12/23 10:04:12 [notice] 33#33: exiting
+2022/12/23 10:04:12 [notice] 26#26: exiting
+2022/12/23 10:04:12 [notice] 25#25: exit
+2022/12/23 10:04:12 [notice] 27#27: exit
+2022/12/23 10:04:12 [notice] 23#23: gracefully shutting down
+2022/12/23 10:04:12 [notice] 30#30: exit
+2022/12/23 10:04:12 [notice] 29#29: exit
+2022/12/23 10:04:12 [notice] 31#31: exit
+2022/12/23 10:04:12 [notice] 32#32: exit
+2022/12/23 10:04:12 [notice] 33#33: exit
+2022/12/23 10:04:12 [notice] 23#23: exiting
+2022/12/23 10:04:12 [notice] 26#26: exit
+2022/12/23 10:04:12 [notice] 23#23: exit
+2022/12/23 10:04:12 [notice] 28#28: gracefully shutting down
+2022/12/23 10:04:12 [notice] 28#28: exiting
+2022/12/23 10:04:12 [notice] 28#28: exit
+2022/12/23 10:04:12 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/23 10:04:12 [notice] 1#1: worker process 22 exited with code 0
+2022/12/23 10:04:12 [notice] 1#1: worker process 23 exited with code 0
+2022/12/23 10:04:12 [notice] 1#1: worker process 25 exited with code 0
+2022/12/23 10:04:12 [notice] 1#1: worker process 28 exited with code 0
+2022/12/23 10:04:12 [notice] 1#1: worker process 30 exited with code 0
+2022/12/23 10:04:12 [notice] 1#1: worker process 33 exited with code 0
+2022/12/23 10:04:12 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:04:12 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/12/23 10:04:12 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/12/23 10:04:12 [notice] 1#1: worker process 27 exited with code 0
+2022/12/23 10:04:12 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:04:12 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/23 10:04:12 [notice] 1#1: worker process 24 exited with code 0
+2022/12/23 10:04:12 [notice] 1#1: worker process 32 exited with code 0
+2022/12/23 10:04:12 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:04:12 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/23 10:04:12 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/12/23 10:04:12 [notice] 1#1: worker process 29 exited with code 0
+2022/12/23 10:04:12 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:04:12 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/23 10:04:12 [notice] 1#1: worker process 26 exited with code 0
+2022/12/23 10:04:12 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:04:12 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/23 10:04:12 [notice] 1#1: worker process 31 exited with code 0
+2022/12/23 10:04:12 [notice] 1#1: exit
+2022/12/23 10:04:33 [notice] 1#1: using the "epoll" event method
+2022/12/23 10:04:33 [notice] 1#1: nginx/1.23.1
+2022/12/23 10:04:33 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 10:04:33 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 10:04:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 10:04:33 [notice] 1#1: start worker processes
+2022/12/23 10:04:33 [notice] 1#1: start worker process 22
+2022/12/23 10:04:33 [notice] 1#1: start worker process 23
+2022/12/23 10:04:33 [notice] 1#1: start worker process 24
+2022/12/23 10:04:33 [notice] 1#1: start worker process 25
+2022/12/23 10:04:33 [notice] 1#1: start worker process 26
+2022/12/23 10:04:33 [notice] 1#1: start worker process 27
+2022/12/23 10:04:33 [notice] 1#1: start worker process 28
+2022/12/23 10:04:33 [notice] 1#1: start worker process 29
+2022/12/23 10:04:33 [notice] 1#1: start worker process 30
+2022/12/23 10:04:33 [notice] 1#1: start worker process 31
+2022/12/23 10:04:33 [notice] 1#1: start worker process 32
+2022/12/23 10:04:33 [notice] 1#1: start worker process 33
+2022/12/23 10:13:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/23 10:13:50 [notice] 22#22: gracefully shutting down
+2022/12/23 10:13:50 [notice] 23#23: gracefully shutting down
+2022/12/23 10:13:50 [notice] 24#24: gracefully shutting down
+2022/12/23 10:13:50 [notice] 25#25: gracefully shutting down
+2022/12/23 10:13:50 [notice] 27#27: gracefully shutting down
+2022/12/23 10:13:50 [notice] 22#22: exiting
+2022/12/23 10:13:50 [notice] 28#28: gracefully shutting down
+2022/12/23 10:13:50 [notice] 29#29: gracefully shutting down
+2022/12/23 10:13:50 [notice] 23#23: exiting
+2022/12/23 10:13:50 [notice] 30#30: gracefully shutting down
+2022/12/23 10:13:50 [notice] 31#31: gracefully shutting down
+2022/12/23 10:13:50 [notice] 32#32: gracefully shutting down
+2022/12/23 10:13:50 [notice] 26#26: gracefully shutting down
+2022/12/23 10:13:50 [notice] 24#24: exiting
+2022/12/23 10:13:50 [notice] 25#25: exiting
+2022/12/23 10:13:50 [notice] 27#27: exiting
+2022/12/23 10:13:50 [notice] 28#28: exiting
+2022/12/23 10:13:50 [notice] 29#29: exiting
+2022/12/23 10:13:50 [notice] 22#22: exit
+2022/12/23 10:13:50 [notice] 30#30: exiting
+2022/12/23 10:13:50 [notice] 31#31: exiting
+2022/12/23 10:13:50 [notice] 32#32: exiting
+2022/12/23 10:13:50 [notice] 26#26: exiting
+2022/12/23 10:13:50 [notice] 23#23: exit
+2022/12/23 10:13:50 [notice] 25#25: exit
+2022/12/23 10:13:50 [notice] 24#24: exit
+2022/12/23 10:13:50 [notice] 27#27: exit
+2022/12/23 10:13:50 [notice] 28#28: exit
+2022/12/23 10:13:50 [notice] 29#29: exit
+2022/12/23 10:13:50 [notice] 30#30: exit
+2022/12/23 10:13:50 [notice] 31#31: exit
+2022/12/23 10:13:50 [notice] 32#32: exit
+2022/12/23 10:13:50 [notice] 26#26: exit
+2022/12/23 10:13:50 [notice] 33#33: gracefully shutting down
+2022/12/23 10:13:50 [notice] 33#33: exiting
+2022/12/23 10:13:50 [notice] 33#33: exit
+2022/12/23 10:13:50 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/12/23 10:13:50 [notice] 1#1: worker process 23 exited with code 0
+2022/12/23 10:13:50 [notice] 1#1: worker process 27 exited with code 0
+2022/12/23 10:13:50 [notice] 1#1: worker process 28 exited with code 0
+2022/12/23 10:13:50 [notice] 1#1: worker process 32 exited with code 0
+2022/12/23 10:13:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:13:50 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/12/23 10:13:50 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/12/23 10:13:50 [notice] 1#1: worker process 22 exited with code 0
+2022/12/23 10:13:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:13:50 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/23 10:13:50 [notice] 1#1: worker process 25 exited with code 0
+2022/12/23 10:13:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:13:50 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/23 10:13:50 [notice] 1#1: worker process 24 exited with code 0
+2022/12/23 10:13:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:13:50 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/23 10:13:50 [notice] 1#1: worker process 31 exited with code 0
+2022/12/23 10:13:50 [notice] 1#1: worker process 33 exited with code 0
+2022/12/23 10:13:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:13:50 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/23 10:13:50 [notice] 1#1: worker process 29 exited with code 0
+2022/12/23 10:13:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:13:50 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/12/23 10:13:50 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/23 10:13:50 [notice] 1#1: worker process 26 exited with code 0
+2022/12/23 10:13:50 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/23 10:13:50 [notice] 1#1: worker process 30 exited with code 0
+2022/12/23 10:13:50 [notice] 1#1: exit
+2022/12/23 10:14:07 [notice] 1#1: using the "epoll" event method
+2022/12/23 10:14:07 [notice] 1#1: nginx/1.23.1
+2022/12/23 10:14:07 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 10:14:07 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 10:14:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 10:14:07 [notice] 1#1: start worker processes
+2022/12/23 10:14:07 [notice] 1#1: start worker process 22
+2022/12/23 10:14:07 [notice] 1#1: start worker process 23
+2022/12/23 10:14:07 [notice] 1#1: start worker process 24
+2022/12/23 10:14:07 [notice] 1#1: start worker process 25
+2022/12/23 10:14:07 [notice] 1#1: start worker process 26
+2022/12/23 10:14:07 [notice] 1#1: start worker process 27
+2022/12/23 10:14:07 [notice] 1#1: start worker process 28
+2022/12/23 10:14:07 [notice] 1#1: start worker process 29
+2022/12/23 10:14:07 [notice] 1#1: start worker process 30
+2022/12/23 10:14:07 [notice] 1#1: start worker process 31
+2022/12/23 10:14:07 [notice] 1#1: start worker process 32
+2022/12/23 10:14:07 [notice] 1#1: start worker process 33
+2022/12/23 10:15:49 [notice] 1#1: signal 17 (SIGCHLD) received from 79
+2022/12/23 10:15:49 [notice] 1#1: unknown process 79 exited with code 255
+2022/12/23 10:16:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/23 10:16:19 [notice] 22#22: gracefully shutting down
+2022/12/23 10:16:19 [notice] 23#23: gracefully shutting down
+2022/12/23 10:16:19 [notice] 24#24: gracefully shutting down
+2022/12/23 10:16:19 [notice] 25#25: gracefully shutting down
+2022/12/23 10:16:19 [notice] 26#26: gracefully shutting down
+2022/12/23 10:16:19 [notice] 27#27: gracefully shutting down
+2022/12/23 10:16:19 [notice] 29#29: gracefully shutting down
+2022/12/23 10:16:19 [notice] 28#28: gracefully shutting down
+2022/12/23 10:16:19 [notice] 30#30: gracefully shutting down
+2022/12/23 10:16:19 [notice] 22#22: exiting
+2022/12/23 10:16:19 [notice] 23#23: exiting
+2022/12/23 10:16:19 [notice] 24#24: exiting
+2022/12/23 10:16:19 [notice] 31#31: gracefully shutting down
+2022/12/23 10:16:19 [notice] 25#25: exiting
+2022/12/23 10:16:19 [notice] 26#26: exiting
+2022/12/23 10:16:19 [notice] 27#27: exiting
+2022/12/23 10:16:19 [notice] 29#29: exiting
+2022/12/23 10:16:19 [notice] 28#28: exiting
+2022/12/23 10:16:19 [notice] 30#30: exiting
+2022/12/23 10:16:19 [notice] 31#31: exiting
+2022/12/23 10:16:19 [notice] 22#22: exit
+2022/12/23 10:16:19 [notice] 23#23: exit
+2022/12/23 10:16:19 [notice] 24#24: exit
+2022/12/23 10:16:19 [notice] 26#26: exit
+2022/12/23 10:16:19 [notice] 29#29: exit
+2022/12/23 10:16:19 [notice] 25#25: exit
+2022/12/23 10:16:19 [notice] 27#27: exit
+2022/12/23 10:16:19 [notice] 28#28: exit
+2022/12/23 10:16:19 [notice] 30#30: exit
+2022/12/23 10:16:19 [notice] 31#31: exit
+2022/12/23 10:16:19 [notice] 32#32: gracefully shutting down
+2022/12/23 10:16:19 [notice] 32#32: exiting
+2022/12/23 10:16:19 [notice] 33#33: gracefully shutting down
+2022/12/23 10:16:19 [notice] 32#32: exit
+2022/12/23 10:16:19 [notice] 33#33: exiting
+2022/12/23 10:16:19 [notice] 33#33: exit
+2022/12/23 10:16:19 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/23 10:16:19 [notice] 1#1: worker process 33 exited with code 0
+2022/12/23 10:16:19 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:16:19 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/12/23 10:16:19 [notice] 1#1: worker process 29 exited with code 0
+2022/12/23 10:16:19 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:16:19 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/12/23 10:16:19 [notice] 1#1: worker process 28 exited with code 0
+2022/12/23 10:16:19 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:16:19 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/12/23 10:16:19 [notice] 1#1: worker process 27 exited with code 0
+2022/12/23 10:16:19 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:16:19 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/23 10:16:19 [notice] 1#1: worker process 25 exited with code 0
+2022/12/23 10:16:19 [notice] 1#1: worker process 31 exited with code 0
+2022/12/23 10:16:19 [notice] 1#1: worker process 24 exited with code 0
+2022/12/23 10:16:19 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:16:19 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/23 10:16:19 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/23 10:16:19 [notice] 1#1: worker process 30 exited with code 0
+2022/12/23 10:16:19 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:16:19 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/23 10:16:19 [notice] 1#1: worker process 32 exited with code 0
+2022/12/23 10:16:19 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:16:19 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/23 10:16:19 [notice] 1#1: worker process 26 exited with code 0
+2022/12/23 10:16:19 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:16:19 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/12/23 10:16:19 [notice] 1#1: worker process 22 exited with code 0
+2022/12/23 10:16:19 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:16:19 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/12/23 10:16:19 [notice] 1#1: worker process 23 exited with code 0
+2022/12/23 10:16:19 [notice] 1#1: exit
+2022/12/23 10:16:22 [notice] 1#1: using the "epoll" event method
+2022/12/23 10:16:22 [notice] 1#1: nginx/1.23.1
+2022/12/23 10:16:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 10:16:22 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 10:16:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 10:16:22 [notice] 1#1: start worker processes
+2022/12/23 10:16:22 [notice] 1#1: start worker process 22
+2022/12/23 10:16:22 [notice] 1#1: start worker process 23
+2022/12/23 10:16:22 [notice] 1#1: start worker process 24
+2022/12/23 10:16:22 [notice] 1#1: start worker process 25
+2022/12/23 10:16:22 [notice] 1#1: start worker process 26
+2022/12/23 10:16:22 [notice] 1#1: start worker process 27
+2022/12/23 10:16:22 [notice] 1#1: start worker process 28
+2022/12/23 10:16:22 [notice] 1#1: start worker process 29
+2022/12/23 10:16:22 [notice] 1#1: start worker process 30
+2022/12/23 10:16:22 [notice] 1#1: start worker process 31
+2022/12/23 10:16:22 [notice] 1#1: start worker process 32
+2022/12/23 10:16:22 [notice] 1#1: start worker process 33
+2022/12/23 10:16:37 [notice] 1#1: signal 17 (SIGCHLD) received from 79
+2022/12/23 10:16:37 [notice] 1#1: unknown process 79 exited with code 255
+2022/12/23 10:16:48 [notice] 1#1: signal 17 (SIGCHLD) received from 81
+2022/12/23 10:16:48 [notice] 1#1: unknown process 81 exited with code 255
+2022/12/23 10:16:49 [notice] 1#1: signal 17 (SIGCHLD) received from 83
+2022/12/23 10:16:49 [notice] 1#1: unknown process 83 exited with code 255
+2022/12/23 10:16:49 [notice] 1#1: signal 17 (SIGCHLD) received from 85
+2022/12/23 10:16:49 [notice] 1#1: unknown process 85 exited with code 255
+2022/12/23 10:17:02 [notice] 1#1: signal 17 (SIGCHLD) received from 88
+2022/12/23 10:17:02 [notice] 1#1: unknown process 88 exited with code 255
+2022/12/23 10:17:09 [notice] 1#1: signal 17 (SIGCHLD) received from 91
+2022/12/23 10:17:09 [notice] 1#1: unknown process 91 exited with code 255
+2022/12/23 10:17:23 [notice] 1#1: signal 17 (SIGCHLD) received from 94
+2022/12/23 10:17:23 [notice] 1#1: unknown process 94 exited with code 255
+2022/12/23 10:17:24 [notice] 1#1: signal 17 (SIGCHLD) received from 96
+2022/12/23 10:17:24 [notice] 1#1: unknown process 96 exited with code 255
+2022/12/23 10:17:24 [notice] 1#1: signal 17 (SIGCHLD) received from 98
+2022/12/23 10:17:24 [notice] 1#1: unknown process 98 exited with code 255
+2022/12/23 10:17:25 [notice] 1#1: signal 17 (SIGCHLD) received from 100
+2022/12/23 10:17:25 [notice] 1#1: unknown process 100 exited with code 255
+2022/12/23 10:17:25 [notice] 1#1: signal 17 (SIGCHLD) received from 102
+2022/12/23 10:17:25 [notice] 1#1: unknown process 102 exited with code 255
+2022/12/23 10:17:40 [notice] 1#1: signal 17 (SIGCHLD) received from 72
+2022/12/23 10:17:40 [notice] 1#1: unknown process 72 exited with code 0
+2022/12/23 10:18:00 [notice] 1#1: signal 17 (SIGCHLD) received from 128
+2022/12/23 10:18:00 [notice] 1#1: unknown process 128 exited with code 255
+2022/12/23 10:18:01 [notice] 1#1: signal 17 (SIGCHLD) received from 130
+2022/12/23 10:18:01 [notice] 1#1: unknown process 130 exited with code 255
+2022/12/23 10:18:01 [notice] 1#1: signal 17 (SIGCHLD) received from 132
+2022/12/23 10:18:01 [notice] 1#1: unknown process 132 exited with code 255
+2022/12/23 10:18:02 [notice] 1#1: signal 17 (SIGCHLD) received from 134
+2022/12/23 10:18:02 [notice] 1#1: unknown process 134 exited with code 255
+2022/12/23 10:18:02 [notice] 1#1: signal 17 (SIGCHLD) received from 136
+2022/12/23 10:18:02 [notice] 1#1: unknown process 136 exited with code 255
+2022/12/23 10:18:02 [notice] 1#1: signal 17 (SIGCHLD) received from 138
+2022/12/23 10:18:02 [notice] 1#1: unknown process 138 exited with code 255
+2022/12/23 10:18:03 [notice] 1#1: signal 17 (SIGCHLD) received from 140
+2022/12/23 10:18:03 [notice] 1#1: unknown process 140 exited with code 255
+2022/12/23 10:18:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/23 10:18:46 [notice] 22#22: gracefully shutting down
+2022/12/23 10:18:46 [notice] 24#24: gracefully shutting down
+2022/12/23 10:18:46 [notice] 23#23: gracefully shutting down
+2022/12/23 10:18:46 [notice] 26#26: gracefully shutting down
+2022/12/23 10:18:46 [notice] 25#25: gracefully shutting down
+2022/12/23 10:18:46 [notice] 27#27: gracefully shutting down
+2022/12/23 10:18:46 [notice] 28#28: gracefully shutting down
+2022/12/23 10:18:46 [notice] 22#22: exiting
+2022/12/23 10:18:46 [notice] 30#30: gracefully shutting down
+2022/12/23 10:18:46 [notice] 24#24: exiting
+2022/12/23 10:18:46 [notice] 29#29: gracefully shutting down
+2022/12/23 10:18:46 [notice] 23#23: exiting
+2022/12/23 10:18:46 [notice] 33#33: gracefully shutting down
+2022/12/23 10:18:46 [notice] 26#26: exiting
+2022/12/23 10:18:46 [notice] 25#25: exiting
+2022/12/23 10:18:46 [notice] 27#27: exiting
+2022/12/23 10:18:46 [notice] 28#28: exiting
+2022/12/23 10:18:46 [notice] 30#30: exiting
+2022/12/23 10:18:46 [notice] 31#31: gracefully shutting down
+2022/12/23 10:18:46 [notice] 29#29: exiting
+2022/12/23 10:18:46 [notice] 22#22: exit
+2022/12/23 10:18:46 [notice] 24#24: exit
+2022/12/23 10:18:46 [notice] 33#33: exiting
+2022/12/23 10:18:46 [notice] 23#23: exit
+2022/12/23 10:18:46 [notice] 26#26: exit
+2022/12/23 10:18:46 [notice] 25#25: exit
+2022/12/23 10:18:46 [notice] 31#31: exiting
+2022/12/23 10:18:46 [notice] 28#28: exit
+2022/12/23 10:18:46 [notice] 27#27: exit
+2022/12/23 10:18:46 [notice] 30#30: exit
+2022/12/23 10:18:46 [notice] 29#29: exit
+2022/12/23 10:18:46 [notice] 33#33: exit
+2022/12/23 10:18:46 [notice] 31#31: exit
+2022/12/23 10:18:46 [notice] 32#32: gracefully shutting down
+2022/12/23 10:18:46 [notice] 32#32: exiting
+2022/12/23 10:18:46 [notice] 32#32: exit
+2022/12/23 10:18:46 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/23 10:18:46 [notice] 1#1: worker process 30 exited with code 0
+2022/12/23 10:18:46 [notice] 1#1: worker process 31 exited with code 0
+2022/12/23 10:18:46 [notice] 1#1: worker process 33 exited with code 0
+2022/12/23 10:18:46 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:18:46 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/23 10:18:46 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/12/23 10:18:46 [notice] 1#1: worker process 23 exited with code 0
+2022/12/23 10:18:46 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:18:46 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/12/23 10:18:46 [notice] 1#1: worker process 24 exited with code 0
+2022/12/23 10:18:46 [notice] 1#1: worker process 25 exited with code 0
+2022/12/23 10:18:46 [notice] 1#1: worker process 28 exited with code 0
+2022/12/23 10:18:46 [notice] 1#1: worker process 29 exited with code 0
+2022/12/23 10:18:46 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:18:46 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/23 10:18:46 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/12/23 10:18:46 [notice] 1#1: worker process 22 exited with code 0
+2022/12/23 10:18:46 [notice] 1#1: worker process 26 exited with code 0
+2022/12/23 10:18:46 [notice] 1#1: worker process 32 exited with code 0
+2022/12/23 10:18:46 [notice] 1#1: worker process 27 exited with code 0
+2022/12/23 10:18:46 [notice] 1#1: exit
+2022/12/23 10:18:50 [notice] 1#1: using the "epoll" event method
+2022/12/23 10:18:50 [notice] 1#1: nginx/1.23.1
+2022/12/23 10:18:50 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 10:18:50 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 10:18:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 10:18:50 [notice] 1#1: start worker processes
+2022/12/23 10:18:50 [notice] 1#1: start worker process 22
+2022/12/23 10:18:50 [notice] 1#1: start worker process 23
+2022/12/23 10:18:50 [notice] 1#1: start worker process 24
+2022/12/23 10:18:50 [notice] 1#1: start worker process 25
+2022/12/23 10:18:50 [notice] 1#1: start worker process 26
+2022/12/23 10:18:50 [notice] 1#1: start worker process 27
+2022/12/23 10:18:50 [notice] 1#1: start worker process 28
+2022/12/23 10:18:50 [notice] 1#1: start worker process 29
+2022/12/23 10:18:50 [notice] 1#1: start worker process 30
+2022/12/23 10:18:50 [notice] 1#1: start worker process 31
+2022/12/23 10:18:50 [notice] 1#1: start worker process 32
+2022/12/23 10:18:50 [notice] 1#1: start worker process 33
+2022/12/23 10:19:33 [notice] 1#1: signal 17 (SIGCHLD) received from 78
+2022/12/23 10:19:33 [notice] 1#1: unknown process 78 exited with code 255
+2022/12/23 10:19:35 [notice] 1#1: signal 17 (SIGCHLD) received from 80
+2022/12/23 10:19:35 [notice] 1#1: unknown process 80 exited with code 255
+2022/12/23 10:19:36 [notice] 1#1: signal 17 (SIGCHLD) received from 82
+2022/12/23 10:19:36 [notice] 1#1: unknown process 82 exited with code 255
+2022/12/23 10:19:37 [notice] 1#1: signal 17 (SIGCHLD) received from 84
+2022/12/23 10:19:37 [notice] 1#1: unknown process 84 exited with code 255
+2022/12/23 10:19:37 [notice] 1#1: signal 17 (SIGCHLD) received from 86
+2022/12/23 10:19:37 [notice] 1#1: unknown process 86 exited with code 255
+2022/12/23 10:19:37 [notice] 1#1: signal 17 (SIGCHLD) received from 88
+2022/12/23 10:19:37 [notice] 1#1: unknown process 88 exited with code 255
+2022/12/23 10:19:37 [notice] 1#1: signal 17 (SIGCHLD) received from 90
+2022/12/23 10:19:37 [notice] 1#1: unknown process 90 exited with code 255
+2022/12/23 10:19:38 [notice] 1#1: signal 17 (SIGCHLD) received from 92
+2022/12/23 10:19:38 [notice] 1#1: unknown process 92 exited with code 255
+2022/12/23 10:19:38 [notice] 1#1: signal 17 (SIGCHLD) received from 94
+2022/12/23 10:19:38 [notice] 1#1: unknown process 94 exited with code 255
+2022/12/23 10:19:38 [notice] 1#1: signal 17 (SIGCHLD) received from 96
+2022/12/23 10:19:38 [notice] 1#1: unknown process 96 exited with code 255
+2022/12/23 10:19:38 [notice] 1#1: signal 17 (SIGCHLD) received from 98
+2022/12/23 10:19:38 [notice] 1#1: unknown process 98 exited with code 255
+2022/12/23 10:19:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/23 10:19:50 [notice] 22#22: gracefully shutting down
+2022/12/23 10:19:50 [notice] 23#23: gracefully shutting down
+2022/12/23 10:19:50 [notice] 25#25: gracefully shutting down
+2022/12/23 10:19:50 [notice] 24#24: gracefully shutting down
+2022/12/23 10:19:50 [notice] 26#26: gracefully shutting down
+2022/12/23 10:19:50 [notice] 28#28: gracefully shutting down
+2022/12/23 10:19:50 [notice] 27#27: gracefully shutting down
+2022/12/23 10:19:50 [notice] 29#29: gracefully shutting down
+2022/12/23 10:19:50 [notice] 22#22: exiting
+2022/12/23 10:19:50 [notice] 23#23: exiting
+2022/12/23 10:19:50 [notice] 25#25: exiting
+2022/12/23 10:19:50 [notice] 33#33: gracefully shutting down
+2022/12/23 10:19:50 [notice] 30#30: gracefully shutting down
+2022/12/23 10:19:50 [notice] 24#24: exiting
+2022/12/23 10:19:50 [notice] 26#26: exiting
+2022/12/23 10:19:50 [notice] 28#28: exiting
+2022/12/23 10:19:50 [notice] 27#27: exiting
+2022/12/23 10:19:50 [notice] 29#29: exiting
+2022/12/23 10:19:50 [notice] 33#33: exiting
+2022/12/23 10:19:50 [notice] 23#23: exit
+2022/12/23 10:19:50 [notice] 22#22: exit
+2022/12/23 10:19:50 [notice] 30#30: exiting
+2022/12/23 10:19:50 [notice] 25#25: exit
+2022/12/23 10:19:50 [notice] 26#26: exit
+2022/12/23 10:19:50 [notice] 24#24: exit
+2022/12/23 10:19:50 [notice] 29#29: exit
+2022/12/23 10:19:50 [notice] 33#33: exit
+2022/12/23 10:19:50 [notice] 28#28: exit
+2022/12/23 10:19:50 [notice] 27#27: exit
+2022/12/23 10:19:50 [notice] 30#30: exit
+2022/12/23 10:19:50 [notice] 32#32: gracefully shutting down
+2022/12/23 10:19:50 [notice] 31#31: gracefully shutting down
+2022/12/23 10:19:50 [notice] 32#32: exiting
+2022/12/23 10:19:50 [notice] 31#31: exiting
+2022/12/23 10:19:50 [notice] 32#32: exit
+2022/12/23 10:19:50 [notice] 31#31: exit
+2022/12/23 10:19:50 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/12/23 10:19:50 [notice] 1#1: worker process 27 exited with code 0
+2022/12/23 10:19:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:19:50 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/23 10:19:50 [notice] 1#1: worker process 32 exited with code 0
+2022/12/23 10:19:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:19:50 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/23 10:19:50 [notice] 1#1: worker process 26 exited with code 0
+2022/12/23 10:19:50 [notice] 1#1: worker process 24 exited with code 0
+2022/12/23 10:19:50 [notice] 1#1: worker process 28 exited with code 0
+2022/12/23 10:19:50 [notice] 1#1: worker process 22 exited with code 0
+2022/12/23 10:19:50 [notice] 1#1: worker process 29 exited with code 0
+2022/12/23 10:19:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:19:50 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/12/23 10:19:50 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/23 10:19:50 [notice] 1#1: worker process 23 exited with code 0
+2022/12/23 10:19:50 [notice] 1#1: worker process 33 exited with code 0
+2022/12/23 10:19:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:19:50 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/12/23 10:19:50 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/23 10:19:50 [notice] 1#1: worker process 30 exited with code 0
+2022/12/23 10:19:50 [notice] 1#1: worker process 25 exited with code 0
+2022/12/23 10:19:50 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/23 10:19:50 [notice] 1#1: worker process 31 exited with code 0
+2022/12/23 10:19:50 [notice] 1#1: exit
+2022/12/23 10:19:58 [notice] 1#1: using the "epoll" event method
+2022/12/23 10:19:58 [notice] 1#1: nginx/1.23.1
+2022/12/23 10:19:58 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 10:19:58 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 10:19:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 10:19:58 [notice] 1#1: start worker processes
+2022/12/23 10:19:58 [notice] 1#1: start worker process 22
+2022/12/23 10:19:58 [notice] 1#1: start worker process 23
+2022/12/23 10:19:58 [notice] 1#1: start worker process 24
+2022/12/23 10:19:58 [notice] 1#1: start worker process 25
+2022/12/23 10:19:58 [notice] 1#1: start worker process 26
+2022/12/23 10:19:58 [notice] 1#1: start worker process 27
+2022/12/23 10:19:58 [notice] 1#1: start worker process 28
+2022/12/23 10:19:58 [notice] 1#1: start worker process 29
+2022/12/23 10:19:58 [notice] 1#1: start worker process 30
+2022/12/23 10:19:58 [notice] 1#1: start worker process 31
+2022/12/23 10:19:58 [notice] 1#1: start worker process 32
+2022/12/23 10:19:58 [notice] 1#1: start worker process 33
+2022/12/23 10:20:07 [notice] 1#1: signal 17 (SIGCHLD) received from 64
+2022/12/23 10:20:07 [notice] 1#1: unknown process 64 exited with code 255
+2022/12/23 10:20:09 [notice] 1#1: signal 17 (SIGCHLD) received from 66
+2022/12/23 10:20:09 [notice] 1#1: unknown process 66 exited with code 255
+2022/12/23 10:20:09 [notice] 1#1: signal 17 (SIGCHLD) received from 68
+2022/12/23 10:20:09 [notice] 1#1: unknown process 68 exited with code 255
+2022/12/23 10:20:10 [notice] 1#1: signal 17 (SIGCHLD) received from 70
+2022/12/23 10:20:10 [notice] 1#1: unknown process 70 exited with code 255
+2022/12/23 10:20:10 [notice] 1#1: signal 17 (SIGCHLD) received from 72
+2022/12/23 10:20:10 [notice] 1#1: unknown process 72 exited with code 255
+2022/12/23 10:20:11 [notice] 1#1: signal 17 (SIGCHLD) received from 74
+2022/12/23 10:20:11 [notice] 1#1: unknown process 74 exited with code 255
+2022/12/23 10:21:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/23 10:21:22 [notice] 22#22: gracefully shutting down
+2022/12/23 10:21:22 [notice] 24#24: gracefully shutting down
+2022/12/23 10:21:22 [notice] 26#26: gracefully shutting down
+2022/12/23 10:21:22 [notice] 23#23: gracefully shutting down
+2022/12/23 10:21:22 [notice] 25#25: gracefully shutting down
+2022/12/23 10:21:22 [notice] 27#27: gracefully shutting down
+2022/12/23 10:21:22 [notice] 28#28: gracefully shutting down
+2022/12/23 10:21:22 [notice] 30#30: gracefully shutting down
+2022/12/23 10:21:22 [notice] 29#29: gracefully shutting down
+2022/12/23 10:21:22 [notice] 22#22: exiting
+2022/12/23 10:21:22 [notice] 24#24: exiting
+2022/12/23 10:21:22 [notice] 31#31: gracefully shutting down
+2022/12/23 10:21:22 [notice] 33#33: gracefully shutting down
+2022/12/23 10:21:22 [notice] 26#26: exiting
+2022/12/23 10:21:22 [notice] 23#23: exiting
+2022/12/23 10:21:22 [notice] 25#25: exiting
+2022/12/23 10:21:22 [notice] 27#27: exiting
+2022/12/23 10:21:22 [notice] 28#28: exiting
+2022/12/23 10:21:22 [notice] 30#30: exiting
+2022/12/23 10:21:22 [notice] 29#29: exiting
+2022/12/23 10:21:22 [notice] 31#31: exiting
+2022/12/23 10:21:22 [notice] 33#33: exiting
+2022/12/23 10:21:22 [notice] 24#24: exit
+2022/12/23 10:21:22 [notice] 22#22: exit
+2022/12/23 10:21:22 [notice] 26#26: exit
+2022/12/23 10:21:22 [notice] 25#25: exit
+2022/12/23 10:21:22 [notice] 28#28: exit
+2022/12/23 10:21:22 [notice] 30#30: exit
+2022/12/23 10:21:22 [notice] 23#23: exit
+2022/12/23 10:21:22 [notice] 27#27: exit
+2022/12/23 10:21:22 [notice] 29#29: exit
+2022/12/23 10:21:22 [notice] 33#33: exit
+2022/12/23 10:21:22 [notice] 31#31: exit
+2022/12/23 10:21:22 [notice] 32#32: gracefully shutting down
+2022/12/23 10:21:22 [notice] 32#32: exiting
+2022/12/23 10:21:22 [notice] 32#32: exit
+2022/12/23 10:21:22 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/23 10:21:22 [notice] 1#1: worker process 25 exited with code 0
+2022/12/23 10:21:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:21:22 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/23 10:21:22 [notice] 1#1: worker process 26 exited with code 0
+2022/12/23 10:21:22 [notice] 1#1: worker process 33 exited with code 0
+2022/12/23 10:21:22 [notice] 1#1: worker process 24 exited with code 0
+2022/12/23 10:21:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:21:22 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/23 10:21:22 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/23 10:21:22 [notice] 1#1: worker process 31 exited with code 0
+2022/12/23 10:21:22 [notice] 1#1: worker process 22 exited with code 0
+2022/12/23 10:21:22 [notice] 1#1: worker process 27 exited with code 0
+2022/12/23 10:21:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:21:22 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/12/23 10:21:22 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/23 10:21:22 [notice] 1#1: worker process 30 exited with code 0
+2022/12/23 10:21:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:21:22 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/23 10:21:22 [notice] 1#1: worker process 32 exited with code 0
+2022/12/23 10:21:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:21:22 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/12/23 10:21:22 [notice] 1#1: worker process 29 exited with code 0
+2022/12/23 10:21:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:21:22 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/12/23 10:21:22 [notice] 1#1: worker process 23 exited with code 0
+2022/12/23 10:21:22 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/12/23 10:21:22 [notice] 1#1: worker process 28 exited with code 0
+2022/12/23 10:21:22 [notice] 1#1: exit
+2022/12/23 10:21:27 [notice] 1#1: using the "epoll" event method
+2022/12/23 10:21:27 [notice] 1#1: nginx/1.23.1
+2022/12/23 10:21:27 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 10:21:27 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 10:21:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 10:21:27 [notice] 1#1: start worker processes
+2022/12/23 10:21:27 [notice] 1#1: start worker process 22
+2022/12/23 10:21:27 [notice] 1#1: start worker process 23
+2022/12/23 10:21:27 [notice] 1#1: start worker process 24
+2022/12/23 10:21:27 [notice] 1#1: start worker process 25
+2022/12/23 10:21:27 [notice] 1#1: start worker process 26
+2022/12/23 10:21:27 [notice] 1#1: start worker process 27
+2022/12/23 10:21:27 [notice] 1#1: start worker process 28
+2022/12/23 10:21:27 [notice] 1#1: start worker process 29
+2022/12/23 10:21:27 [notice] 1#1: start worker process 30
+2022/12/23 10:21:27 [notice] 1#1: start worker process 31
+2022/12/23 10:21:27 [notice] 1#1: start worker process 32
+2022/12/23 10:21:27 [notice] 1#1: start worker process 33
+2022/12/23 10:22:21 [notice] 1#1: signal 17 (SIGCHLD) received from 77
+2022/12/23 10:22:21 [notice] 1#1: unknown process 77 exited with code 255
+2022/12/23 10:22:22 [notice] 1#1: signal 17 (SIGCHLD) received from 79
+2022/12/23 10:22:22 [notice] 1#1: unknown process 79 exited with code 255
+2022/12/23 10:24:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/23 10:24:32 [notice] 22#22: gracefully shutting down
+2022/12/23 10:24:32 [notice] 23#23: gracefully shutting down
+2022/12/23 10:24:32 [notice] 25#25: gracefully shutting down
+2022/12/23 10:24:32 [notice] 24#24: gracefully shutting down
+2022/12/23 10:24:32 [notice] 27#27: gracefully shutting down
+2022/12/23 10:24:32 [notice] 26#26: gracefully shutting down
+2022/12/23 10:24:32 [notice] 28#28: gracefully shutting down
+2022/12/23 10:24:32 [notice] 30#30: gracefully shutting down
+2022/12/23 10:24:32 [notice] 29#29: gracefully shutting down
+2022/12/23 10:24:32 [notice] 22#22: exiting
+2022/12/23 10:24:32 [notice] 31#31: gracefully shutting down
+2022/12/23 10:24:32 [notice] 23#23: exiting
+2022/12/23 10:24:32 [notice] 25#25: exiting
+2022/12/23 10:24:32 [notice] 24#24: exiting
+2022/12/23 10:24:32 [notice] 27#27: exiting
+2022/12/23 10:24:32 [notice] 26#26: exiting
+2022/12/23 10:24:32 [notice] 28#28: exiting
+2022/12/23 10:24:32 [notice] 30#30: exiting
+2022/12/23 10:24:32 [notice] 33#33: gracefully shutting down
+2022/12/23 10:24:32 [notice] 29#29: exiting
+2022/12/23 10:24:32 [notice] 22#22: exit
+2022/12/23 10:24:32 [notice] 31#31: exiting
+2022/12/23 10:24:32 [notice] 23#23: exit
+2022/12/23 10:24:32 [notice] 24#24: exit
+2022/12/23 10:24:32 [notice] 27#27: exit
+2022/12/23 10:24:32 [notice] 25#25: exit
+2022/12/23 10:24:32 [notice] 28#28: exit
+2022/12/23 10:24:32 [notice] 33#33: exiting
+2022/12/23 10:24:32 [notice] 30#30: exit
+2022/12/23 10:24:32 [notice] 26#26: exit
+2022/12/23 10:24:32 [notice] 29#29: exit
+2022/12/23 10:24:32 [notice] 31#31: exit
+2022/12/23 10:24:32 [notice] 33#33: exit
+2022/12/23 10:24:32 [notice] 32#32: gracefully shutting down
+2022/12/23 10:24:32 [notice] 32#32: exiting
+2022/12/23 10:24:32 [notice] 32#32: exit
+2022/12/23 10:24:32 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/12/23 10:24:32 [notice] 1#1: worker process 33 exited with code 0
+2022/12/23 10:24:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:24:32 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/23 10:24:32 [notice] 1#1: worker process 26 exited with code 0
+2022/12/23 10:24:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:24:32 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/12/23 10:24:32 [notice] 1#1: worker process 27 exited with code 0
+2022/12/23 10:24:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:24:32 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/23 10:24:32 [notice] 1#1: worker process 24 exited with code 0
+2022/12/23 10:24:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:24:32 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/23 10:24:32 [notice] 1#1: worker process 25 exited with code 0
+2022/12/23 10:24:32 [notice] 1#1: worker process 22 exited with code 0
+2022/12/23 10:24:32 [notice] 1#1: worker process 32 exited with code 0
+2022/12/23 10:24:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:24:32 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/23 10:24:32 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/12/23 10:24:32 [notice] 1#1: worker process 23 exited with code 0
+2022/12/23 10:24:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:24:32 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/12/23 10:24:32 [notice] 1#1: worker process 29 exited with code 0
+2022/12/23 10:24:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:24:32 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/23 10:24:32 [notice] 1#1: worker process 30 exited with code 0
+2022/12/23 10:24:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:24:32 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/23 10:24:32 [notice] 1#1: worker process 31 exited with code 0
+2022/12/23 10:24:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:24:32 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/12/23 10:24:32 [notice] 1#1: worker process 28 exited with code 0
+2022/12/23 10:24:32 [notice] 1#1: exit
+2022/12/23 10:25:22 [notice] 1#1: using the "epoll" event method
+2022/12/23 10:25:22 [notice] 1#1: nginx/1.23.1
+2022/12/23 10:25:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 10:25:22 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 10:25:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 10:25:22 [notice] 1#1: start worker processes
+2022/12/23 10:25:22 [notice] 1#1: start worker process 22
+2022/12/23 10:25:22 [notice] 1#1: start worker process 23
+2022/12/23 10:25:22 [notice] 1#1: start worker process 24
+2022/12/23 10:25:22 [notice] 1#1: start worker process 25
+2022/12/23 10:25:22 [notice] 1#1: start worker process 26
+2022/12/23 10:25:22 [notice] 1#1: start worker process 27
+2022/12/23 10:25:22 [notice] 1#1: start worker process 28
+2022/12/23 10:25:22 [notice] 1#1: start worker process 29
+2022/12/23 10:25:22 [notice] 1#1: start worker process 30
+2022/12/23 10:25:22 [notice] 1#1: start worker process 31
+2022/12/23 10:25:22 [notice] 1#1: start worker process 32
+2022/12/23 10:25:22 [notice] 1#1: start worker process 33
+2022/12/23 10:27:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/23 10:27:34 [notice] 23#23: gracefully shutting down
+2022/12/23 10:27:34 [notice] 22#22: gracefully shutting down
+2022/12/23 10:27:34 [notice] 25#25: gracefully shutting down
+2022/12/23 10:27:34 [notice] 24#24: gracefully shutting down
+2022/12/23 10:27:34 [notice] 26#26: gracefully shutting down
+2022/12/23 10:27:34 [notice] 27#27: gracefully shutting down
+2022/12/23 10:27:34 [notice] 29#29: gracefully shutting down
+2022/12/23 10:27:34 [notice] 30#30: gracefully shutting down
+2022/12/23 10:27:34 [notice] 23#23: exiting
+2022/12/23 10:27:34 [notice] 31#31: gracefully shutting down
+2022/12/23 10:27:34 [notice] 22#22: exiting
+2022/12/23 10:27:34 [notice] 32#32: gracefully shutting down
+2022/12/23 10:27:34 [notice] 25#25: exiting
+2022/12/23 10:27:34 [notice] 24#24: exiting
+2022/12/23 10:27:34 [notice] 26#26: exiting
+2022/12/23 10:27:34 [notice] 27#27: exiting
+2022/12/23 10:27:34 [notice] 29#29: exiting
+2022/12/23 10:27:34 [notice] 30#30: exiting
+2022/12/23 10:27:34 [notice] 31#31: exiting
+2022/12/23 10:27:34 [notice] 32#32: exiting
+2022/12/23 10:27:34 [notice] 23#23: exit
+2022/12/23 10:27:34 [notice] 22#22: exit
+2022/12/23 10:27:34 [notice] 25#25: exit
+2022/12/23 10:27:34 [notice] 27#27: exit
+2022/12/23 10:27:34 [notice] 24#24: exit
+2022/12/23 10:27:34 [notice] 29#29: exit
+2022/12/23 10:27:34 [notice] 30#30: exit
+2022/12/23 10:27:34 [notice] 26#26: exit
+2022/12/23 10:27:34 [notice] 31#31: exit
+2022/12/23 10:27:34 [notice] 32#32: exit
+2022/12/23 10:27:34 [notice] 28#28: gracefully shutting down
+2022/12/23 10:27:34 [notice] 33#33: gracefully shutting down
+2022/12/23 10:27:34 [notice] 28#28: exiting
+2022/12/23 10:27:34 [notice] 33#33: exiting
+2022/12/23 10:27:34 [notice] 28#28: exit
+2022/12/23 10:27:34 [notice] 33#33: exit
+2022/12/23 10:27:34 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/23 10:27:34 [notice] 1#1: worker process 28 exited with code 0
+2022/12/23 10:27:34 [notice] 1#1: worker process 32 exited with code 0
+2022/12/23 10:27:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:27:34 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/12/23 10:27:34 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/23 10:27:34 [notice] 1#1: worker process 30 exited with code 0
+2022/12/23 10:27:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:27:34 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/23 10:27:34 [notice] 1#1: worker process 25 exited with code 0
+2022/12/23 10:27:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:27:34 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/23 10:27:34 [notice] 1#1: worker process 31 exited with code 0
+2022/12/23 10:27:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:27:34 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/12/23 10:27:34 [notice] 1#1: worker process 22 exited with code 0
+2022/12/23 10:27:34 [notice] 1#1: worker process 23 exited with code 0
+2022/12/23 10:27:34 [notice] 1#1: worker process 33 exited with code 0
+2022/12/23 10:27:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:27:34 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/12/23 10:27:34 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/23 10:27:34 [notice] 1#1: worker process 26 exited with code 0
+2022/12/23 10:27:34 [notice] 1#1: worker process 29 exited with code 0
+2022/12/23 10:27:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:27:34 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/23 10:27:34 [notice] 1#1: worker process 24 exited with code 0
+2022/12/23 10:27:34 [notice] 1#1: worker process 27 exited with code 0
+2022/12/23 10:27:34 [notice] 1#1: exit
+2022/12/23 10:27:37 [notice] 1#1: using the "epoll" event method
+2022/12/23 10:27:37 [notice] 1#1: nginx/1.23.1
+2022/12/23 10:27:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 10:27:37 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 10:27:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 10:27:37 [notice] 1#1: start worker processes
+2022/12/23 10:27:37 [notice] 1#1: start worker process 22
+2022/12/23 10:27:37 [notice] 1#1: start worker process 23
+2022/12/23 10:27:37 [notice] 1#1: start worker process 24
+2022/12/23 10:27:37 [notice] 1#1: start worker process 25
+2022/12/23 10:27:37 [notice] 1#1: start worker process 26
+2022/12/23 10:27:37 [notice] 1#1: start worker process 27
+2022/12/23 10:27:37 [notice] 1#1: start worker process 28
+2022/12/23 10:27:37 [notice] 1#1: start worker process 29
+2022/12/23 10:27:37 [notice] 1#1: start worker process 30
+2022/12/23 10:27:37 [notice] 1#1: start worker process 31
+2022/12/23 10:27:37 [notice] 1#1: start worker process 32
+2022/12/23 10:27:37 [notice] 1#1: start worker process 33
+2022/12/23 10:28:02 [notice] 1#1: signal 17 (SIGCHLD) received from 70
+2022/12/23 10:28:02 [notice] 1#1: unknown process 70 exited with code 255
+2022/12/23 10:28:18 [notice] 1#1: signal 17 (SIGCHLD) received from 73
+2022/12/23 10:28:18 [notice] 1#1: unknown process 73 exited with code 255
+2022/12/23 10:28:42 [notice] 1#1: signal 17 (SIGCHLD) received from 86
+2022/12/23 10:28:42 [notice] 1#1: unknown process 86 exited with code 255
+2022/12/23 10:28:43 [notice] 1#1: signal 17 (SIGCHLD) received from 88
+2022/12/23 10:28:43 [notice] 1#1: unknown process 88 exited with code 255
+2022/12/23 10:28:43 [notice] 1#1: signal 17 (SIGCHLD) received from 90
+2022/12/23 10:28:43 [notice] 1#1: unknown process 90 exited with code 255
+2022/12/23 10:28:43 [notice] 1#1: signal 17 (SIGCHLD) received from 92
+2022/12/23 10:28:43 [notice] 1#1: unknown process 92 exited with code 255
+2022/12/23 10:28:43 [notice] 1#1: signal 17 (SIGCHLD) received from 94
+2022/12/23 10:28:43 [notice] 1#1: unknown process 94 exited with code 255
+2022/12/23 10:28:43 [notice] 1#1: signal 17 (SIGCHLD) received from 96
+2022/12/23 10:28:43 [notice] 1#1: unknown process 96 exited with code 255
+2022/12/23 10:28:44 [notice] 1#1: signal 17 (SIGCHLD) received from 98
+2022/12/23 10:28:44 [notice] 1#1: unknown process 98 exited with code 255
+2022/12/23 10:29:32 [notice] 1#1: signal 17 (SIGCHLD) received from 100
+2022/12/23 10:29:32 [notice] 1#1: unknown process 100 exited with code 255
+2022/12/23 10:30:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/12/23 10:30:04 [notice] 22#22: gracefully shutting down
+2022/12/23 10:30:04 [notice] 24#24: gracefully shutting down
+2022/12/23 10:30:04 [notice] 23#23: gracefully shutting down
+2022/12/23 10:30:04 [notice] 25#25: gracefully shutting down
+2022/12/23 10:30:04 [notice] 26#26: gracefully shutting down
+2022/12/23 10:30:04 [notice] 29#29: gracefully shutting down
+2022/12/23 10:30:04 [notice] 27#27: gracefully shutting down
+2022/12/23 10:30:04 [notice] 28#28: gracefully shutting down
+2022/12/23 10:30:04 [notice] 30#30: gracefully shutting down
+2022/12/23 10:30:04 [notice] 22#22: exiting
+2022/12/23 10:30:04 [notice] 24#24: exiting
+2022/12/23 10:30:04 [notice] 32#32: gracefully shutting down
+2022/12/23 10:30:04 [notice] 23#23: exiting
+2022/12/23 10:30:04 [notice] 25#25: exiting
+2022/12/23 10:30:04 [notice] 26#26: exiting
+2022/12/23 10:30:04 [notice] 29#29: exiting
+2022/12/23 10:30:04 [notice] 27#27: exiting
+2022/12/23 10:30:04 [notice] 28#28: exiting
+2022/12/23 10:30:04 [notice] 30#30: exiting
+2022/12/23 10:30:04 [notice] 33#33: gracefully shutting down
+2022/12/23 10:30:04 [notice] 32#32: exiting
+2022/12/23 10:30:04 [notice] 24#24: exit
+2022/12/23 10:30:04 [notice] 27#27: exit
+2022/12/23 10:30:04 [notice] 25#25: exit
+2022/12/23 10:30:04 [notice] 22#22: exit
+2022/12/23 10:30:04 [notice] 23#23: exit
+2022/12/23 10:30:04 [notice] 29#29: exit
+2022/12/23 10:30:04 [notice] 26#26: exit
+2022/12/23 10:30:04 [notice] 33#33: exiting
+2022/12/23 10:30:04 [notice] 28#28: exit
+2022/12/23 10:30:04 [notice] 30#30: exit
+2022/12/23 10:30:04 [notice] 32#32: exit
+2022/12/23 10:30:04 [notice] 33#33: exit
+2022/12/23 10:30:04 [notice] 31#31: gracefully shutting down
+2022/12/23 10:30:04 [notice] 31#31: exiting
+2022/12/23 10:30:04 [notice] 31#31: exit
+2022/12/23 10:30:04 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/12/23 10:30:04 [notice] 1#1: worker process 26 exited with code 0
+2022/12/23 10:30:04 [notice] 1#1: worker process 27 exited with code 0
+2022/12/23 10:30:04 [notice] 1#1: worker process 33 exited with code 0
+2022/12/23 10:30:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:30:04 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/12/23 10:30:04 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/12/23 10:30:04 [notice] 1#1: worker process 30 exited with code 0
+2022/12/23 10:30:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:30:04 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/12/23 10:30:04 [notice] 1#1: worker process 32 exited with code 0
+2022/12/23 10:30:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:30:04 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/12/23 10:30:04 [notice] 1#1: worker process 23 exited with code 0
+2022/12/23 10:30:04 [notice] 1#1: worker process 24 exited with code 0
+2022/12/23 10:30:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:30:04 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/12/23 10:30:04 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/12/23 10:30:04 [notice] 1#1: worker process 22 exited with code 0
+2022/12/23 10:30:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:30:04 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/12/23 10:30:04 [notice] 1#1: worker process 29 exited with code 0
+2022/12/23 10:30:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:30:04 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/12/23 10:30:04 [notice] 1#1: worker process 31 exited with code 0
+2022/12/23 10:30:04 [notice] 1#1: signal 29 (SIGIO) received
+2022/12/23 10:30:04 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/12/23 10:30:04 [notice] 1#1: worker process 28 exited with code 0
+2022/12/23 10:30:04 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/12/23 10:30:04 [notice] 1#1: worker process 25 exited with code 0
+2022/12/23 10:30:04 [notice] 1#1: exit
+2022/12/23 10:30:37 [notice] 1#1: using the "epoll" event method
+2022/12/23 10:30:37 [notice] 1#1: nginx/1.23.1
+2022/12/23 10:30:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/12/23 10:30:37 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2022/12/23 10:30:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/12/23 10:30:37 [notice] 1#1: start worker processes
+2022/12/23 10:30:37 [notice] 1#1: start worker process 22
+2022/12/23 10:30:37 [notice] 1#1: start worker process 23
+2022/12/23 10:30:37 [notice] 1#1: start worker process 24
+2022/12/23 10:30:37 [notice] 1#1: start worker process 25
+2022/12/23 10:30:37 [notice] 1#1: start worker process 26
+2022/12/23 10:30:37 [notice] 1#1: start worker process 27
+2022/12/23 10:30:37 [notice] 1#1: start worker process 28
+2022/12/23 10:30:37 [notice] 1#1: start worker process 29
+2022/12/23 10:30:37 [notice] 1#1: start worker process 30
+2022/12/23 10:30:37 [notice] 1#1: start worker process 31
+2022/12/23 10:30:37 [notice] 1#1: start worker process 32
+2022/12/23 10:30:37 [notice] 1#1: start worker process 33
+2022/12/23 10:31:29 [notice] 1#1: signal 17 (SIGCHLD) received from 83
+2022/12/23 10:31:29 [notice] 1#1: unknown process 83 exited with code 255
+2022/12/23 10:34:32 [notice] 1#1: signal 17 (SIGCHLD) received from 101
+2022/12/23 10:34:32 [notice] 1#1: unknown process 101 exited with code 0
+2022/12/23 10:37:20 [notice] 1#1: signal 17 (SIGCHLD) received from 103
+2022/12/23 10:37:20 [notice] 1#1: unknown process 103 exited with code 255
+2022/12/23 10:47:53 [notice] 1#1: signal 17 (SIGCHLD) received from 135
+2022/12/23 10:47:53 [notice] 1#1: unknown process 135 exited with code 255
+2022/12/23 10:50:15 [notice] 1#1: signal 17 (SIGCHLD) received from 162
+2022/12/23 10:50:15 [notice] 1#1: unknown process 162 exited with code 0
+2022/12/23 10:50:47 [notice] 1#1: signal 17 (SIGCHLD) received from 178
+2022/12/23 10:50:47 [notice] 1#1: unknown process 178 exited with code 0
+2022/12/23 10:51:47 [notice] 1#1: signal 17 (SIGCHLD) received from 185
+2022/12/23 10:51:47 [notice] 1#1: unknown process 185 exited with code 0
+2022/12/23 10:52:25 [notice] 1#1: signal 17 (SIGCHLD) received from 192
+2022/12/23 10:52:25 [notice] 1#1: unknown process 192 exited with code 0
+2022/12/23 10:52:32 [notice] 1#1: signal 17 (SIGCHLD) received from 199
+2022/12/23 10:52:32 [notice] 1#1: unknown process 199 exited with code 0
+2022/12/23 10:52:47 [notice] 1#1: signal 17 (SIGCHLD) received from 206
+2022/12/23 10:52:47 [notice] 1#1: unknown process 206 exited with code 0
+2022/12/23 10:53:08 [notice] 1#1: signal 17 (SIGCHLD) received from 213
+2022/12/23 10:53:08 [notice] 1#1: unknown process 213 exited with code 0
