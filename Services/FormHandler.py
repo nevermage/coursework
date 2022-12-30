@@ -1,67 +1,102 @@
-import paramiko
 from tkinter import *
 import tkinter.scrolledtext as tkscrolled
+import tkinter.messagebox as messagebox
+from Services.FileService import FileService
 
 class FormHandler:
-    def initForm(self):
+
+    def __init__(self):
         base = Tk()
-        base.geometry('1000x800')
-        base.title("Registration Form")
+        width = 1000
+        height = 800
+        base.title("Remote file reader")
+        screen_width = base.winfo_screenwidth()
+        screen_height = base.winfo_screenheight()
+        x = (screen_width / 2) - (width / 2)
+        y = (screen_height / 2) - (height / 2)
+        base.geometry('%dx%d+%d+%d' % (width, height, x, y))
+        Label(base, text="Remote host configuration", width=20, font=("bold", 16)).place(x=40, y=10)
 
-        labl_0 = Label(base, text="Registration form", width=20, font=("bold", 20))
-        labl_0.place(x=90, y=53)
+        Label(base, text="Host", width=18, font=("bold", 10), anchor="e").place(x=0, y=43)
 
-        labl_1 = Label(base, text="FullName", width=20, font=("bold", 10))
-        labl_1.place(x=80, y=130)
+        hostInput = Entry(base)
+        self.hostInput = hostInput
+        hostInput.place(x=150, y=40)
 
-        entry_1 = Entry(base)
-        entry_1.place(x=240, y=130)
+        Label(base, text="User", width=18, font=("bold", 10), anchor="e").place(x=0, y=73)
 
-        labl_2 = Label(base, text="Email", width=20, font=("bold", 10))
-        labl_2.place(x=68, y=180)
+        userInput = Entry(base)
+        self.userInput = userInput
+        userInput.place(x=150, y=70)
 
-        entry_02 = Entry(base)
-        entry_02.place(x=240, y=180)
+        Label(base, text="Password", width=18, font=("bold", 10), anchor="e").place(x=0, y=103)
 
-        labl_3 = Label(base, text="Gender", width=20, font=("bold", 10))
-        labl_3.place(x=70, y=230)
+        passwordInput = Entry(base, show="*")
+        self.passwordInput = passwordInput
+        passwordInput.place(x=150, y=100)
 
-        labl_4 = Label(base, text="Age:", width=20, font=("bold", 10))
-        labl_4.place(x=70, y=280)
+        Label(base, text="Port", width=18, font=("bold", 10), anchor="e").place(x=0, y=133)
 
-        entry_02 = Entry(base)
-        entry_02.place(x=240, y=280)
+        portInput = Entry(base)
+        self.portInput = portInput
+        portInput.place(x=150, y=130)
 
-        Button(base, text='Submit', width=20, bg='brown', fg='white').place(x=180, y=380)
-        # it will be used for displaying the registration form onto the window
+        Label(base, text="File (absolute path)", width=18, font=("bold", 10), anchor="e").place(x=0, y=163)
 
-        # fileText = Text(base, width=50, state=DISABLED, font=("bold", 12))
+        filePathInput = Entry(base)
+        self.filePathInput = filePathInput
+        filePathInput.place(x=150, y=160)
+
+        Button(
+            base,
+            text='Read file',
+            width=20,
+            command=self.seeFileContent
+        ).place(x=80, y=200)
+
         fileText = tkscrolled.ScrolledText(base, width=90, wrap='word', font=("bold", 12))
-        fileText.configure(state='normal')
-
-
-
-        # @todo move to .env
-        host = '0.0.0.0'
-        user = 'root'
-        secret = 'secret'
-        port = 20022
-        logPath = '/var/www/logs/error.log'
-
-        client = paramiko.SSHClient()
-        client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-        client.connect(hostname=host, username=user, password=secret, port=port)
-        sftp_client = client.open_sftp()
-        file = sftp_client.open(logPath)
-        lines = file.readlines()
-
-        for line in lines:
-            fileText.insert('end', line.strip() + '\n')
-        client.close()
-
-
-
+        self.fileText = fileText
         fileText.configure(state='disabled')
-        fileText.place(x=50, y=300)
 
+        self.messagebox = messagebox
+        base.resizable(False, False)
         base.mainloop()
+
+        self.base = base
+
+    def seeFileContent(self):
+        host = self.hostInput.get()
+        user = self.userInput.get()
+        secret = self.passwordInput.get()
+        port = self.portInput.get()
+        filePath = self.filePathInput.get()
+
+        try:
+            response = FileService.getFileContentAsArray(host, user, secret, port, filePath)
+            self.printFileContent(response)
+        except Exception as e:
+            self.cleanTextField()
+            self.messagebox.showerror('Error', str(e))
+
+    def printFileContent(self, lines):
+        self.cleanTextField()
+        fileText = self.fileText
+
+        if type(lines) in (tuple, list):
+            fileText.configure(state='normal')
+
+            for line in lines:
+                fileText.insert('end', line.strip() + '\n')
+
+            fileText.configure(state='disabled')
+            fileText.place(x=50, y=300)
+        else:
+            self.cleanTextField()
+            self.messagebox.showerror('Error', 'Wrong data format')
+
+        self.fileText = fileText
+
+    def cleanTextField(self):
+        self.fileText.configure(state='normal')
+        self.fileText.delete('1.0', END)
+        self.fileText.configure(state='disabled')
